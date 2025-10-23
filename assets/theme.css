@@ -8856,6 +8856,10 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: block;
 }
 
+.jdgm-review-snippet-widget-wrapper{
+  color: #677279; 
+}
+
 .product-item__inventory {
   margin-top: 10px;
 }
