@@ -481,6 +481,12 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "176132125025608bbb": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -497,6 +503,7 @@
     "quick-links",
     "1758649406169a5352",
     "17586587554d0dc0f5",
-    "1759950549972516f9"
+    "1759950549972516f9",
+    "176132125025608bbb"
   ]
 }
