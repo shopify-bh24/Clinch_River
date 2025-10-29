@@ -67,6 +67,18 @@
             "content": "<h3></h3><p>Clinch River Fishing Company was founded in 2017 with one mission in mind — to provide anglers and outdoor enthusiasts with quality marine electronics and fishing products at the best possible prices.</p><p>What started as a small operation near the scenic Clinch River in Tennessee has grown into a trusted name for fishermen and boaters across the country. With over a decade of experience in marine electronics, we’ve built our business on knowledge, service, and a passion for the water.</p><p>We believe that getting the right gear shouldn’t mean overpaying. That’s why we work directly with leading manufacturers and suppliers to bring you a wide selection of products from top brands — always paired with fair pricing and reliable customer support.</p><p>At Clinch River Fishing Company, we’re more than just a store — we’re part of your fishing journey. Whether you’re chasing bass at dawn, navigating open waters, or outfitting your boat with the latest technology, we’re here to make sure you have the tools you need for success.</p><p><strong>Quality Products. Honest Prices. Great Experiences.</strong> That’s been our promise since 2017, and it’s what keeps us moving forward every day.</p>"
           }
         },
+        "brand_information_ymtFLy": {
+          "type": "brand_information",
+          "settings": {
+            "title": "Contact us",
+            "business": "<strong>Business Name</strong>:  Clinch River Fishing Company",
+            "footer_address": "<strong>Address</strong>: 7669 Clinton Highway, Powell, TN, 37849865-607-9472",
+            "footer_contact_no": "<strong>Phone Number</strong>: <strong>0123-456-789</strong>",
+            "footer_contact_id": "Email: admin@clinchriverfishingusa.com",
+            "contsubtext": "<p>Find a nearest Store location</p>",
+            "tdescription_style": "body"
+          }
+        },
         "footer-1": {
           "type": "links",
           "settings": {
@@ -83,6 +95,7 @@
       },
       "block_order": [
         "footer-0",
+        "brand_information_ymtFLy",
         "footer-1",
         "footer-2"
       ],
