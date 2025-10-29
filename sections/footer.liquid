@@ -1,3 +1,11 @@
+<style>
+  .contact_info{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+</style>
+
 <footer class="footer" data-section-id="{{ section.id }}" data-section-type="footer" role="contentinfo">
   <div class="container">
     <div class="footer__wrapper">
@@ -73,6 +81,42 @@
                       {%- endif -%}
                     {%- endform -%}
                   </div>
+                </div>
+
+              {%- when 'brand_information' -%}
+                <div class="footer__block-item">
+                  <p class="footer__title heading h6">{{ block.settings.title | escape }}</p>
+                  
+                  <ul class="contact_info">
+                    <li>
+                      {%- if block.settings.business != blank -%}
+                        <span>{{ block.settings.business }}</span>
+                      {%- endif -%}
+                    </li>
+                    <li>
+                      {%- if block.settings.footer_address != blank -%}
+                        {% if block.settings.icon == true %}{% render 'icon-faddress' %} {% endif %}
+                        <span>{{ block.settings.footer_address }}</span>
+                      {%- endif -%}
+                    </li>
+                    <li>
+                      {%- if block.settings.footer_contact_no != blank -%}
+                        {% if block.settings.icon == true %}{% render 'icon-fcontact' %} {% endif %}
+                        <span>{{ block.settings.footer_contact_no }}</span>
+                      {%- endif -%}
+                    </li>
+                    <li>
+                      {%- if block.settings.footer_contact_id != blank -%}
+                        {% if block.settings.icon == true %}{% render 'icon-fmail' %}{% endif %}
+                        <span>{{ block.settings.footer_contact_id }}</span>
+                      {%- endif -%}
+                    </li>
+                    {%- if block.settings.contsubtext != blank -%}
+                      <li class="fsub_cont {{ block.settings.tdescription_style }}">
+                        {{ block.settings.contsubtext }}
+                      </li>
+                    {%- endif -%}
+                  </ul>
                 </div>
             {%- endcase -%}
           {%- endfor -%}
@@ -306,25 +350,69 @@
           "default": "<p>A short sentence describing what someone will receive by subscribing</p>"
         }
       ]
-    }
-  ],
-  "default": {
-    "blocks": [
-      {
-        "type": "text",
-        "settings": {}
-      },
-      {
-        "type": "links",
-        "settings": {
-          "menu": "footer"
+    },
+    {
+      "type": "brand_information",
+      "name": "Brand Information",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "Heading",
+          "default": "Contact us"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "business",
+          "label": "Business Name",
+          "default": "Company"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "footer_address",
+          "label": "Address",
+          "default": "United States."
+        },
+        {
+          "type": "inline_richtext",
+          "id": "footer_contact_no",
+          "label": "Call",
+          "default": "0123-456-789"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "footer_contact_id",
+          "label": "Email",
+          "default": "Email: example@example.com"
+        },
+        {
+          "type": "richtext",
+          "id": "contsubtext",
+          "default": "<p>Find a nearest Store location</p>",
+          "label": "Subtext"
+        },
+        {
+          "type": "select",
+          "id": "tdescription_style",
+          "label": "Description style",
+          "options": [
+            {
+              "value": "body",
+              "label": "body"
+            },
+            {
+              "value": "subtitle",
+              "label": "subtitle"
+            },
+            {
+              "value": "uppercase",
+              "label": "uppercase"
+            }
+          ],
+          "default": "body"
         }
-      },
-      {
-        "type": "newsletter",
-        "settings": {}
-      }
-    ]
-  }
+      ]
+    }
+  ]
 }
 {% endschema %}
