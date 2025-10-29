@@ -74,8 +74,8 @@
             "business": "<strong>Business Name</strong>:  Clinch River Fishing Company",
             "footer_address": "<strong>Address</strong>: 7669 Clinton Highway, Powell, TN, 37849865-607-9472",
             "footer_contact_no": "<strong>Phone Number</strong>: <strong>0123-456-789</strong>",
-            "footer_contact_id": "Email: admin@clinchriverfishingusa.com",
-            "contsubtext": "<p>Find a nearest Store location</p>",
+            "footer_contact_id": "<strong>Email</strong>: admin@clinchriverfishingusa.com",
+            "contsubtext": "",
             "tdescription_style": "body"
           }
         },
