@@ -356,7 +356,7 @@
       "type": "collection-with-image",
       "name": "Collection with image",
       "settings": {
-        "collection": "winterizing-2",
+        "collection": "winterizing",
         "products_count": 12,
         "show_quick_buy": false,
         "background": "#2d2d2d",
