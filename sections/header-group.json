@@ -13,11 +13,10 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "background": "#1e2d7d",
         "text_color": "#f5e4e4",
-        "text": "Same Day Shipping On All Orders Placed Before 4PM. Free Shipping on Orders Over $150 - 865-607-9472",
+        "text": "Need Help?  Call 865-607-9472 - admin@clinchriverfishingusa.com",
         "text_position": "center",
         "link": "",
         "show_newsletter": false,
