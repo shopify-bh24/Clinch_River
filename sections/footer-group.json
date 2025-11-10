@@ -35,7 +35,7 @@
           "settings": {
             "icon": "bi-customer-support",
             "title": "Same Day Shipment",
-            "content": "<p>Same day shipment on all products ordered before 4PM</p>"
+            "content": "<p>“In-stock items ship same day before 4PM ET; exclusions: backorders, freight, weekend/holiday<br/><br/></p>"
           }
         },
         "item-4": {
