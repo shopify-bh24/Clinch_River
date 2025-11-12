@@ -18,7 +18,7 @@
           "type": "item",
           "settings": {
             "icon": "bi-delivery",
-            "title": "Free shipping",
+            "title": "Free shipping on over $150",
             "content": "<p>Free shipping on all orders over $150</p>"
           }
         },
