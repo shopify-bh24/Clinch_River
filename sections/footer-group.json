@@ -74,7 +74,7 @@
             "business": "<strong>Business Name</strong>:  Clinch River Fishing USA",
             "footer_address": "<strong>Address</strong>: 305 Westbury Drive, Clinton, TN 37716",
             "footer_contact_no": "<strong>Phone Number</strong>: 865 607 9472",
-            "footer_contact_id": "<strong>Email</strong>: admin@clinchriverfishingusa.com",
+            "footer_contact_id": "<strong>Email</strong>: <a>admin@clinchriverfishingusa.com</a>",
             "contsubtext": "",
             "tdescription_style": "body"
           }
