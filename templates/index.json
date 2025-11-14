@@ -89,8 +89,8 @@
           "type": "offer",
           "settings": {
             "image": "shopify://shop_images/free-shipping.png",
-            "title": "Same Day Free shipping for all orders over $150",
-            "content": "<p>We got you covered ! We deliver your goods using USPS expedited shipping, free of charge. 1 - 2 day express shipping available</p>"
+            "title": "Same Day Free shipping for all orders over $150 placed before 4PM GMT",
+            "content": "<p>We got you covered ! We deliver your goods using USPS, UPS, Fedex, DHL and other carriers. Full tracking provided. Express shipping available.</p>"
           }
         }
       },
