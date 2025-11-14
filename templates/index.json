@@ -114,6 +114,14 @@
             "link": "shopify://collections/automotive-rv"
           }
         },
+        "collection_K7AwRm": {
+          "type": "collection",
+          "settings": {
+            "collection": "cartography-1",
+            "image": "shopify://shop_images/GAR010C128720.jpg",
+            "link": "shopify://collections/cartography-1"
+          }
+        },
         "collection-2": {
           "type": "collection",
           "settings": {
@@ -132,6 +140,14 @@
           "type": "collection",
           "settings": {
             "collection": "camping",
+            "image": "shopify://shop_images/camping-tent.png",
+            "link": "shopify://collections/camping-1"
+          }
+        },
+        "collection_4wAdEt": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
             "link": ""
           }
         },
@@ -145,16 +161,18 @@
         "collection-6": {
           "type": "collection",
           "settings": {
-            "collection": "anchoring-docking-1",
+            "collection": "",
             "link": ""
           }
         }
       },
       "block_order": [
         "collection-1",
+        "collection_K7AwRm",
         "collection-2",
         "collection-3",
         "collection-4",
+        "collection_4wAdEt",
         "collection-5",
         "collection-6"
       ],
