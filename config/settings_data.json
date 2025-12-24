@@ -56,8 +56,8 @@
     "cart_type": "drawer",
     "cart_empty_button_link": "shopify://collections/all",
     "cart_show_checkout_button": true,
-    "cart_show_free_shipping_threshold": false,
-    "cart_free_shipping_threshold": "50",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "150",
     "social_facebook": "",
     "social_twitter": "",
     "social_pinterest": "",
@@ -94,11 +94,6 @@
       },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      },
-      "11158620501380966596": {
-        "type": "shopify://apps/trustz/blocks/trustz/539d151e-77d2-4b39-b20d-fbce59dc78c7",
         "disabled": false,
         "settings": {}
       },
