@@ -53,7 +53,7 @@
     "show_color_swatch": true,
     "show_inventory_quantity": true,
     "low_inventory_threshold": 0,
-    "cart_type": "drawer",
+    "cart_type": "page",
     "cart_empty_button_link": "shopify://collections/all",
     "cart_show_checkout_button": true,
     "cart_show_free_shipping_threshold": true,
