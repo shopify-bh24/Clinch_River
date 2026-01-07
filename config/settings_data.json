@@ -101,6 +101,11 @@
         "type": "shopify://apps/coupon-x-discount-code-pop-up/blocks/coupon-x/49ebf3b1-06cb-46be-8af6-a07932a42780",
         "disabled": true,
         "settings": {}
+      },
+      "8713138290206253500": {
+        "type": "shopify://apps/sharely-social-icons/blocks/app-embed-block/99b5f0c9-c62e-4f61-8489-59098ba481f3",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
