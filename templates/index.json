@@ -15,10 +15,10 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/boat-sailing-on-the-ocen.png",
+            "image": "shopify://shop_images/ChatGPT_Image_Feb_4_2026_03_57_47_PM.png",
             "show_overlay": false,
             "overlay_opacity": 30,
-            "text_color": "#ffffff",
+            "text_color": "#0c0c0d",
             "title": "Introducing: the Marine Electronics Collection",
             "content": "Discover our selection of the best marine electronics of the year",
             "content_position": "middle_center",
