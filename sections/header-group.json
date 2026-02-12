@@ -43,7 +43,7 @@
         "navigation_email": "admin@clinchriverfishingusa.com",
         "show_condensed_search": true,
         "show_search_filter": true,
-        "search_menu": "",
+        "search_menu": "customer-account-main-menu",
         "show_search_menu_title": true
       }
     }
