@@ -287,13 +287,6 @@
     "logo-list": {
       "type": "logo-list",
       "blocks": {
-        "logo-1": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/garmin-icon-lg.png",
-            "link": "shopify://collections"
-          }
-        },
         "logo-2": {
           "type": "logo",
           "settings": {
@@ -331,7 +324,6 @@
         }
       },
       "block_order": [
-        "logo-1",
         "logo-2",
         "logo-3",
         "logo-4",
