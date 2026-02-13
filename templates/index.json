@@ -343,15 +343,15 @@
       "settings": {
         "collection": "winterizing",
         "products_count": 12,
-        "show_quick_buy": false,
+        "show_quick_buy": true,
         "background": "#2d2d2d",
         "text_color": "#ffffff",
-        "title": "Winterizing Kits",
-        "content": "Here is our selection of winterizing kits, picked by our experts.",
+        "title": "Trolling Motors",
+        "content": "Here is our selection of trolling motors, picked by our experts.",
         "button_background": "#ffffff",
         "button_text_color": "#2d2d2d",
-        "button_text": "Buy Now & Protect Your Investment",
-        "button_link": "shopify://collections/winterizing"
+        "button_text": "Buy Now & Get Ready For Spring",
+        "button_link": "shopify://collections/minn-kota-50-off"
       }
     },
     "featured-collection-1": {
