@@ -15,56 +15,22 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/marine-footer-lg.webp",
+            "image": "shopify://shop_images/95866a41-94aa-47ae-9aef-08928462cac3.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
-            "title": "Introducing: the Marine Electronics Collection",
+            "title": "",
             "content": "Discover our selection of the best marine electronics of the year",
             "content_position": "middle_center",
-            "button_background": "#00badb",
+            "button_background": "#ee0000",
             "button_text_color": "#ffffff",
             "button_text": "Shop All Electronics",
-            "link": "shopify://collections/all"
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bass-fisherman.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "New Fishing Accessories",
-            "content": "Discover the latest brands",
-            "content_position": "middle_right",
-            "button_background": "#00badb",
-            "button_text_color": "#ffffff",
-            "button_text": "Shop now",
-            "link": "shopify://collections/all"
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/outdoor-hiking-man.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Introducing Outdoor Accessories",
-            "content": "",
-            "content_position": "middle_left",
-            "button_background": "#00badb",
-            "button_text_color": "#ffffff",
-            "button_text": "Shop now",
             "link": "shopify://collections/all"
           }
         }
       },
       "block_order": [
-        "image-1",
-        "image-2",
-        "image-3"
+        "image-1"
       ],
       "settings": {
         "edge_to_edge": true,
@@ -341,7 +307,7 @@
       "type": "collection-with-image",
       "name": "Collection with image",
       "settings": {
-        "collection": "winterizing",
+        "collection": "minn-kota-50-off",
         "products_count": 12,
         "show_quick_buy": true,
         "background": "#2d2d2d",
