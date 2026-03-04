@@ -66,8 +66,8 @@
       ],
       "name": "Offers",
       "settings": {
-        "items_per_row": 2,
-        "stack_mobile": false
+        "items_per_row": 1,
+        "stack_mobile": true
       }
     },
     "collection-list": {
