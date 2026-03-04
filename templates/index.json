@@ -24,7 +24,7 @@
             "content_position": "middle_center",
             "button_background": "#ee0000",
             "button_text_color": "#ffffff",
-            "button_text": "Shop All Electronics",
+            "button_text": "Shop All",
             "link": "shopify://collections/all"
           }
         }
