@@ -38,7 +38,7 @@
     "product_label_2_background": "#00a500",
     "product_star_color": "#ffbd00",
     "base_text_font_size": 16,
-    "heading_font": "barlow_n5",
+    "heading_font": "sans_serif_n4",
     "text_font": "barlow_n4",
     "underline_links": true,
     "currency_code_enabled": false,
