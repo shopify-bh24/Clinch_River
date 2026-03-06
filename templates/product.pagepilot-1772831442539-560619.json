@@ -1,0 +1,689 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "pp-main-product-v1-0-0",
+      "blocks": {
+        "review_numbers_sc19sm": {
+          "type": "pp_review_numbers",
+          "settings": {
+            "rating": 5,
+            "stars_color": "#facc15",
+            "review_count": 204,
+            "review_text": "reviews"
+          }
+        },
+        "title_n1bdtf": {
+          "type": "title",
+          "settings": {}
+        },
+        "product_subtitle_6jb9dh": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Quickly clean muddy dog paws at home or after outdoor adventures with ease and no mess.</strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "price_6729l0": {
+          "type": "price",
+          "settings": {
+            "price_color": "#000000",
+            "compare_price_color": "#A3A3A3"
+          }
+        },
+        "divider_ql8mdg": {
+          "type": "divider",
+          "settings": {}
+        },
+        "benefit_qx9o74": {
+          "type": "text",
+          "settings": {
+            "text": "✔️ Remove mud from paws in seconds",
+            "text_style": "body"
+          }
+        },
+        "benefit_d2efm1": {
+          "type": "text",
+          "settings": {
+            "text": "✔️ Save time on cleanup after each walk",
+            "text_style": "body"
+          }
+        },
+        "benefit_mulf28": {
+          "type": "text",
+          "settings": {
+            "text": "✔️ Prevent mud on floors and car interiors",
+            "text_style": "body"
+          }
+        },
+        "benefit_ironyq": {
+          "type": "text",
+          "settings": {
+            "text": "✔️ Calm dogs with gentle silicone brushing",
+            "text_style": "body"
+          }
+        },
+        "divider_oixrit": {
+          "type": "divider",
+          "settings": {}
+        },
+        "quantity_sgmvij": {
+          "type": "quantity",
+          "settings": {
+            "quantity_text": "Quantity"
+          }
+        },
+        "variant_picker_mx93un": {
+          "type": "variant_picker",
+          "settings": {}
+        },
+        "buy_buttons_egaw5i": {
+          "type": "buy_buttons",
+          "settings": {
+            "add_to_cart_text": "Add To Cart",
+            "sold_out_text": "Sold Out",
+            "unavailable_text": "Unavailable"
+          }
+        },
+        "icons_with-text_5f9xtg": {
+          "type": "pp_icons_with_text",
+          "settings": {
+            "guarantee_1_icon": "truck",
+            "guarantee_1_text": "<p>Fast Shipping</p>",
+            "guarantee_2_icon": "box",
+            "guarantee_2_text": "<p>Free Returns</p>",
+            "guarantee_3_icon": "heart",
+            "guarantee_3_text": "<p>30-Day Money Back Guarantee</p>"
+          }
+        },
+        "divider_zaat6h": {
+          "type": "divider",
+          "settings": {}
+        },
+        "review_block_e3aovh": {
+          "type": "pp_review_block",
+          "settings": {
+            "rating": 5,
+            "stars_color": "#facc15",
+            "image": "shopify://shop_images/bffd8322-9fdd-4898-b303-5cc5c9801f97.webp",
+            "review": "I used this after muddy hikes and it changed weekend cleanup — no more soggy towels or tracked mud. Quick rinse, gentle bristles, and my floors stay clean. Saved time and stress for both of us, now a must-have for every outdoor pup parent.",
+            "name": "Thomas O."
+          }
+        },
+        "divider_j0561v": {
+          "type": "divider",
+          "settings": {}
+        },
+        "expandable_ip4ypf": {
+          "type": "pp_expandable_text",
+          "settings": {
+            "title": "Shipping Information",
+            "content": "<p>We offer tracked and insured shipping for all of our orders. Order processing takes 1-3 business days before shipment.</p>",
+            "icon": "globe"
+          }
+        },
+        "expandable_44an8p": {
+          "type": "pp_expandable_text",
+          "settings": {
+            "title": "Return Policy",
+            "content": "<p>We love our products and are confident you will too! That's why we are offering a 30-Day, Risk-Free Trial. If you are not in love with your results, we will give you a refund.</p>",
+            "icon": "back"
+          }
+        },
+        "cart_drawer_0x3h3o": {
+          "type": "cart_drawer",
+          "settings": {
+            "cart_drawer_title": "Your cart",
+            "cart_drawer_total_text": "Total",
+            "cart_drawer_empty_text": "Your cart is empty",
+            "checkout_button_text": "Checkout"
+          }
+        }
+      },
+      "block_order": [
+        "review_numbers_sc19sm",
+        "title_n1bdtf",
+        "product_subtitle_6jb9dh",
+        "price_6729l0",
+        "divider_ql8mdg",
+        "benefit_qx9o74",
+        "benefit_d2efm1",
+        "benefit_mulf28",
+        "benefit_ironyq",
+        "divider_oixrit",
+        "quantity_sgmvij",
+        "variant_picker_mx93un",
+        "buy_buttons_egaw5i",
+        "icons_with-text_5f9xtg",
+        "divider_zaat6h",
+        "review_block_e3aovh",
+        "divider_j0561v",
+        "expandable_ip4ypf",
+        "expandable_44an8p",
+        "cart_drawer_0x3h3o"
+      ],
+      "settings": {
+        "heading_font_size": 24,
+        "body_font_size": 16,
+        "pp_heading_color": "#000000",
+        "pp_body_color": "#000000",
+        "pp_brand_color": "#606c75",
+        "pp_button_background_color": "#000000",
+        "pp_button_text_color": "#FFFFFF",
+        "pp_border_radius": 16
+      }
+    },
+    "image_with-text_k3nw5m": {
+      "type": "pp-image-with-text-v1-0-0",
+      "blocks": {
+        "heading_2hr99c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tired of muddy floors after walks and park trips"
+          }
+        },
+        "text_77z4qy": {
+          "type": "text",
+          "settings": {
+            "text": "Stop wiping paws on rugs and clothes. The MudBuster cleans deep into pads with silicone bristles so mud stays in the cup, leaving floors and car seats spotless after every walk."
+          }
+        },
+        "button_7270kr": {
+          "type": "button",
+          "settings": {
+            "button_behaviour": "scroll_to_top",
+            "button_label": "Get Mine Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_2hr99c",
+        "text_77z4qy",
+        "button_7270kr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/7a1e3a4f-b845-4c30-a112-a54687e712cd.png",
+        "image_alt": "MudDestroyer Pro Paw Cleaner",
+        "layout": "image_first"
+      }
+    },
+    "image_with-benefits_lzrpvi": {
+      "type": "pp-image-with-benefits-v1-0-0",
+      "blocks": {
+        "benefit_bdypus": {
+          "type": "benefit",
+          "settings": {
+            "icon": "🧼",
+            "title": "Clean Fast",
+            "description": "Remove mud in seconds after walks or hikes."
+          }
+        },
+        "benefit_6lkxgf": {
+          "type": "benefit",
+          "settings": {
+            "icon": "🐾",
+            "title": "Fits Large",
+            "description": "Houses big paws for large and extra large breeds."
+          }
+        },
+        "benefit_anc7za": {
+          "type": "benefit",
+          "settings": {
+            "icon": "💧",
+            "title": "Less Mess",
+            "description": "Keeps dirt inside the cup, not on floors."
+          }
+        },
+        "benefit_tiberc": {
+          "type": "benefit",
+          "settings": {
+            "icon": "🤝",
+            "title": "Dog Calm",
+            "description": "Gentle bristles reduce stress during washing."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_bdypus",
+        "benefit_6lkxgf",
+        "benefit_anc7za",
+        "benefit_tiberc"
+      ],
+      "settings": {
+        "heading": "Make muddy paw cleanup fast and mess free",
+        "subtitle": "Use simple water and a twist to remove mud, protect floors, and speed up post-walk routines with visible results every time.",
+        "image": "shopify://shop_images/image_502_1772827539027-75145557-79333451-65465121_1_dcddbf9f-f730-439b-b01a-25c0e8ca5a51.jpg?v=1772831456"
+      }
+    },
+    "differences_0jmkt5": {
+      "type": "pp-differences-v1-0-0",
+      "blocks": {
+        "comparison_wjmz23": {
+          "type": "comparison_item",
+          "settings": {
+            "feature": "Containment",
+            "product_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "comparison_16wxij": {
+          "type": "comparison_item",
+          "settings": {
+            "feature": "Speed",
+            "product_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "comparison_ve88bp": {
+          "type": "comparison_item",
+          "settings": {
+            "feature": "Gentle",
+            "product_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "comparison_aofuvb": {
+          "type": "comparison_item",
+          "settings": {
+            "feature": "Fit",
+            "product_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "comparison_cwf77y": {
+          "type": "comparison_item",
+          "settings": {
+            "feature": "Affordable",
+            "product_has_feature": true,
+            "competitor_has_feature": false
+          }
+        }
+      },
+      "block_order": [
+        "comparison_wjmz23",
+        "comparison_16wxij",
+        "comparison_ve88bp",
+        "comparison_aofuvb",
+        "comparison_cwf77y"
+      ],
+      "settings": {
+        "heading": "Why MudDestroyer Pro Paw Cleaner Stands Out",
+        "description": "Unlike others, MudDestroyer keeps mud contained, fits large paws, uses soft silicone for gentle cleaning, and is quick to use so you save time and avoid house mess.",
+        "button_label": "Get Mine Now",
+        "button_link": "",
+        "product_title": "MudDestroyer Pro Paw Cleaner",
+        "competitor_title": "Others",
+        "button_behaviour": "scroll_to_top"
+      }
+    },
+    "image_with-percentage_tzkozz": {
+      "type": "pp-image-with-percentage-v1-0-0",
+      "blocks": {
+        "heading_w65znb": {
+          "type": "heading",
+          "settings": {
+            "heading": "See real, fast paw-cleaning results every time"
+          }
+        },
+        "percentage_items_o9zq5z": {
+          "type": "percentage_items",
+          "settings": {
+            "color_end": "#d1d5db",
+            "percentage_1": 98,
+            "text_1": "Reported faster paw cleanup after park visits and hikes.",
+            "percentage_2": 97,
+            "text_2": "Experienced less mud tracked into homes and cars.",
+            "percentage_3": 96,
+            "text_3": "Found washing paws calmer and quicker for large dogs."
+          }
+        },
+        "button_hufwin": {
+          "type": "button",
+          "settings": {
+            "button_behaviour": "scroll_to_top",
+            "button_label": "Get Mine Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_w65znb",
+        "percentage_items_o9zq5z",
+        "button_hufwin"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/aa4ff8fc-a7be-4d8b-ac2a-78d15792546f.png"
+      }
+    },
+    "image_with-text_vg9j48": {
+      "type": "pp-image-with-text-v1-0-0",
+      "blocks": {
+        "heading_nj9e2i": {
+          "type": "heading",
+          "settings": {
+            "heading": "Struggling to clean large dog paws quickly at home"
+          }
+        },
+        "text_m98vdu": {
+          "type": "text",
+          "settings": {
+            "text": "Designed for large and extra large breeds, the wide tumbler fits big paws. Clean all four feet fast without wrestling, saving time after hikes or rainy runs."
+          }
+        },
+        "button_xab1kd": {
+          "type": "button",
+          "settings": {
+            "button_behaviour": "scroll_to_top",
+            "button_label": "Get Mine Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_nj9e2i",
+        "text_m98vdu",
+        "button_xab1kd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_358_1772827538998-74894915-19420368-50102183_4_df0bb577-ba14-4e09-94e8-5f7e7b0daae2.jpg?v=1772831456",
+        "image_alt": "MudDestroyer Pro Paw Cleaner",
+        "layout": "text_first"
+      }
+    },
+    "faqs_hzmyvp": {
+      "type": "pp-faqs-v1-0-0",
+      "blocks": {
+        "faq_hnuofg": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I use the MudDestroyer effectively?",
+            "answer": "Add a little water, insert the muddy paw, twist a few times, then dab dry with a towel. Repeat for each paw. Easy steps get clean paws in under a minute per dog."
+          }
+        },
+        "faq_ktp6lx": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will it fit my large breed dog?",
+            "answer": "The large size is made for large and extra large breeds. It fits wide paws without forcing, so you can clean bigger dogs quickly and comfortably."
+          }
+        },
+        "faq_329q20": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is it gentle on sensitive paws?",
+            "answer": "Yes. Thick silicone bristles loosen dirt without harsh scrubbing, reducing irritation and keeping anxious dogs calm during cleaning."
+          }
+        },
+        "faq_dukprc": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I clean the MudDestroyer after use?",
+            "answer": "Empty the muddy water, rinse the tumbler and bristles, then air dry. The cup cleans easily so it’s ready for your next walk or hike."
+          }
+        },
+        "faq_dbz4fc": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I use it for multiple dogs without odor?",
+            "answer": "Rinse between dogs and let dry. Regular cleaning prevents odors and keeps the MudBuster fresh for repeated use."
+          }
+        }
+      },
+      "block_order": [
+        "faq_hnuofg",
+        "faq_ktp6lx",
+        "faq_329q20",
+        "faq_dukprc",
+        "faq_dbz4fc"
+      ],
+      "settings": {
+        "heading": "Common Questions About Cleaning Dog Paws Easily",
+        "description": "Answers that help you use the MudDestroyer confidently for quick, mess-free paw cleaning.",
+        "button_behaviour": "scroll_to_top",
+        "button_label": "Get Mine Now",
+        "button_link": ""
+      }
+    },
+    "call_to-action_doh3c5": {
+      "type": "pp-call-to-action-v1-0-0",
+      "blocks": {
+        "heading_e8lt5t": {
+          "type": "heading",
+          "settings": {
+            "heading": "30-Day Money-Back Guarantee on MudDestroyer Pro Paw Cleaner"
+          }
+        },
+        "text_kcoj3i": {
+          "type": "text",
+          "settings": {
+            "text": "Try MudDestroyer risk-free for 30 days. If muddy paw cleanup doesn’t become noticeably faster, cleaner, and less stressful for you and your dog, return it for a full refund. Clean paws, no mess, guaranteed."
+          }
+        },
+        "button_6v7ubh": {
+          "type": "button",
+          "settings": {
+            "button_behaviour": "scroll_to_top",
+            "button_label": "Get Mine Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_e8lt5t",
+        "text_kcoj3i",
+        "button_6v7ubh"
+      ],
+      "settings": {
+        "guarantee_icon": "certification"
+      }
+    },
+    "review_grid_m0qlm7": {
+      "type": "pp-review-grid-v1-0-0",
+      "blocks": {
+        "review_pev4pb": {
+          "type": "review",
+          "settings": {
+            "name": "Matt C.",
+            "verified_text": "Verified Buyer",
+            "rating": 5,
+            "review_text": "I keep it by the door for quick cleanup after park trips; it consistently cleans dirty paws easily and reduces indoor mess."
+          }
+        },
+        "review_xvwbbz": {
+          "type": "review",
+          "settings": {
+            "name": "Brian E.",
+            "verified_text": "Verified Buyer",
+            "rating": 5,
+            "review_text": "Bought for our big lab and it handles large paws well. Cleans dirty paws easily, quick process, and saves washing towels constantly."
+          }
+        },
+        "review_yo0e5j": {
+          "type": "review",
+          "settings": {
+            "name": "Paul N.",
+            "verified_text": "Verified Buyer",
+            "rating": 4,
+            "review_text": "Between park runs, mud, and puddles this has been a lifesaver. Thorough cleaning, gentle bristles, and no more muddy floors for weeks now."
+          }
+        },
+        "review_ubebjc": {
+          "type": "review",
+          "settings": {
+            "name": "Greg F.",
+            "verified_text": "Verified Buyer",
+            "rating": 5,
+            "review_text": "I use it after every trail run; it loosens dirt from between pads and keeps the mess contained. Feels sturdy and reliable."
+          }
+        },
+        "review_97j4nn": {
+          "type": "review",
+          "settings": {
+            "name": "Luke P.",
+            "verified_text": "Verified Buyer",
+            "rating": 5,
+            "review_text": "After muddy trails this is my go-to. Bristles loosen grit gently and clean deeply each time."
+          }
+        },
+        "review_u155kh": {
+          "type": "review",
+          "settings": {
+            "name": "Kevin A.",
+            "verified_text": "Verified Buyer",
+            "rating": 5,
+            "review_text": "Great for rainy season walks. The bristles scrub off hardened mud without rubbing my dog raw, and cleanup is minimal."
+          }
+        },
+        "review_0togew": {
+          "type": "review",
+          "settings": {
+            "name": "Alex R.",
+            "verified_text": "Verified Buyer",
+            "rating": 4,
+            "review_text": "Game changer! 🔥"
+          }
+        },
+        "review_q55lvl": {
+          "type": "review",
+          "settings": {
+            "name": "Noah T.",
+            "verified_text": "Verified Buyer",
+            "rating": 5,
+            "review_text": "Saves time when we get back from the beach. Rinse, twist, dry — paws are clean and my floors are happy."
+          }
+        },
+        "review_3qjjpu": {
+          "type": "review",
+          "settings": {
+            "name": "Mike S.",
+            "verified_text": "Verified Buyer",
+            "rating": 4,
+            "review_text": "Cleans paws fast."
+          }
+        },
+        "review_6yrn5l": {
+          "type": "review",
+          "settings": {
+            "name": "Ben K.",
+            "verified_text": "Verified Buyer",
+            "rating": 4,
+            "review_text": "Works great."
+          }
+        },
+        "review_mxugby": {
+          "type": "review",
+          "settings": {
+            "name": "Sam L.",
+            "verified_text": "Verified Buyer",
+            "rating": 4,
+            "review_text": "Keeps mud in the cup, not on my car seats, super handy for weekend hikes."
+          }
+        },
+        "review_njdcu1": {
+          "type": "review",
+          "settings": {
+            "name": "Ryan V.",
+            "verified_text": "Verified Buyer",
+            "rating": 5,
+            "review_text": "Was skeptical at first but it actually loosens dirt and washes paws thoroughly. My pup tolerates it well and cleanup is simple."
+          }
+        },
+        "review_lwu1un": {
+          "type": "review",
+          "settings": {
+            "name": "Ethan B.",
+            "verified_text": "Verified Buyer",
+            "rating": 4,
+            "review_text": "I used this every walk last month; it really removes caked mud without stressing my dog and my floors stay spotless."
+          }
+        },
+        "review_ve6wnh": {
+          "type": "review",
+          "settings": {
+            "name": "Chris M.",
+            "verified_text": "Verified Buyer",
+            "rating": 4,
+            "review_text": "Quick and easy to use after park runs, saves me wiping floors all evening."
+          }
+        },
+        "review_315va7": {
+          "type": "review",
+          "settings": {
+            "name": "John D.",
+            "verified_text": "Verified Buyer",
+            "rating": 4,
+            "review_text": "Love it! 😊"
+          }
+        },
+        "review_rc441u": {
+          "type": "review",
+          "settings": {
+            "name": "Tom H.",
+            "verified_text": "Verified Buyer",
+            "rating": 5,
+            "review_text": "Simple routine: water, twist, dab—paws clean in seconds, no mess on carpets."
+          }
+        },
+        "review_u2pnxm": {
+          "type": "review",
+          "settings": {
+            "name": "Jason W.",
+            "verified_text": "Verified Buyer",
+            "rating": 5,
+            "review_text": "Used on a muddy hike and it held all the muck inside. No tracked mess in the car and my dog wasn’t stressed at all."
+          }
+        }
+      },
+      "block_order": [
+        "review_pev4pb",
+        "review_xvwbbz",
+        "review_yo0e5j",
+        "review_ubebjc",
+        "review_97j4nn",
+        "review_u155kh",
+        "review_0togew",
+        "review_q55lvl",
+        "review_3qjjpu",
+        "review_6yrn5l",
+        "review_mxugby",
+        "review_njdcu1",
+        "review_lwu1un",
+        "review_ve6wnh",
+        "review_315va7",
+        "review_rc441u",
+        "review_u2pnxm"
+      ],
+      "settings": {
+        "heading": "Real owners honest thoughts here",
+        "subheading": "Trusted feedback from real pet owners"
+      }
+    },
+    "recommended_products_y3ysr0": {
+      "type": "pp-recommended-products-v1-0-0",
+      "settings": {
+        "heading": "Recommended Products"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with-text_k3nw5m",
+    "image_with-benefits_lzrpvi",
+    "differences_0jmkt5",
+    "image_with-percentage_tzkozz",
+    "image_with-text_vg9j48",
+    "faqs_hzmyvp",
+    "call_to-action_doh3c5",
+    "review_grid_m0qlm7",
+    "recommended_products_y3ysr0"
+  ]
+}
