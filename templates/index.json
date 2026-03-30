@@ -443,7 +443,7 @@
       "type": "custom-html",
       "name": "Custom HTML",
       "settings": {
-        "title": "",
+        "title": "Trust Pilot Reviews",
         "html": "<p></p><div id=\"shapo-widget-0b01ce2fed4176b989ef\"></div>\n<script id=\"shapo-embed-js\" type=\"text/javascript\" src=\"https://cdn.shapo.io/js/embed.js\" defer></script>y/paste HTML code<p></p>"
       }
     }
