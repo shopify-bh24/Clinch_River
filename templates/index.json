@@ -438,14 +438,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "custom_html_yDN7Xf": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "title": "",
-        "html": "<div id=\"shapo-widget-0b01ce2fed4176b989ef\"></div>\n<script id=\"shapo-embed-js\" type=\"text/javascript\" src=\"https://cdn.shapo.io/js/embed.js\" defer></script>"
-      }
     }
   },
   "order": [
@@ -463,7 +455,6 @@
     "1758649406169a5352",
     "17586587554d0dc0f5",
     "1759950549972516f9",
-    "176132125025608bbb",
-    "custom_html_yDN7Xf"
+    "176132125025608bbb"
   ]
 }
