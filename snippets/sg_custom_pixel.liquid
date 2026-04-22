@@ -1,0 +1,121 @@
+<script>
+(function(){
+  window.data_hatches = window.data_hatches || {};
+  const H = window.data_hatches;
+
+  if (!H.__ready__) {
+    H.round2 = n => Math.round((+n || 0) * 100) / 100;
+
+    H.readDH = function(){ try{ return JSON.parse(localStorage.getItem('dh')||'{}'); }catch(_){ return {}; } };
+    H.writeDH = function(obj){ try{ localStorage.setItem('dh', JSON.stringify(obj||{})); }catch(_){} };
+    H.ensureBoot = function(){
+      const st = H.readDH();
+      if (!st.v) st.v = '13.0';
+      if (!st.anonSeed) st.anonSeed = `t${Date.now()}_r${Math.floor(Math.random()*1e6)}`;
+      if (typeof st.prePurchase !== 'boolean') st.prePurchase = true;
+      if (!Array.isArray(st.seenHashes)) st.seenHashes = [];
+      if (!st.ltv) st.ltv = 0;
+      H.writeDH(st);
+    };
+
+    H.ensureBoot();
+    H.__ready__ = true;
+  }
+
+  const publishQueue = [];
+  function safePublish(name, payload){
+    function doPublish(){ try { Shopify.analytics.publish(name, payload); } catch(_){} }
+    if (window.Shopify && Shopify.analytics && typeof Shopify.analytics.publish === 'function') {
+      doPublish();
+    } else {
+      publishQueue.push({name, payload});
+    }
+  }
+  function flushPublishQueue(){
+    if (!(window.Shopify && Shopify.analytics && Shopify.analytics.publish)) return;
+    while (publishQueue.length) {
+      const {name, payload} = publishQueue.shift();
+      try { Shopify.analytics.publish(name, payload); } catch(_){}
+    }
+  }
+  document.addEventListener('DOMContentLoaded', flushPublishQueue);
+  window.addEventListener('load', flushPublishQueue);
+
+  function getClickPath(el){
+    if (!(el instanceof Node)) return '';
+    const chain = [];
+    let n = el;
+    while (n && n.nodeType === 1) {
+      const cls = n.classList ? Array.prototype.join.call(n.classList, '.') : '';
+      const part = (n.tagName ? n.tagName.toLowerCase() : '') +
+                   (cls ? '.' + cls : '') +
+                   (n.id ? '#' + n.id : '');
+      chain.unshift(part);
+      n = n.parentElement;
+    }
+    return (el.toString().match(/\[object (\w+)\]/)?.[1] || 'Element') + ': ' + chain.join(' > ');
+  }
+
+  window.addEventListener('click', function(evt){
+    try {
+      const base = {
+        click_element : getClickPath(evt.target) || '',
+        click_id      : evt.target.id || '',
+        click_classes : evt.target.className || '',
+        click_text    : (evt.target.innerText || '').trim().slice(0, 300),
+        click_target  : evt.target.target || '',
+        click_url     : evt.target.href || ''
+      };
+      safePublish('custom_click', base);
+
+      const a = evt.target.closest && evt.target.closest('a');
+      if (a) {
+        safePublish('custom_link_click', {
+          click_element : getClickPath(a) || '',
+          click_id      : a.id || '',
+          click_classes : a.className || '',
+          click_text    : (a.innerText || '').trim().slice(0, 300),
+          click_target  : a.target || '',
+          click_url     : a.href || ''
+        });
+      }
+    } catch(_){}
+  }, {capture:true, passive:true});
+
+  window.dataLayer = window.dataLayer || [];
+  if (!window.__dh_boot__) {
+    window.__dh_boot__ = true;
+    dataLayer.push({
+      event: 'dh_boot',
+      event_source: 'dh_DataLayer',
+      page_location: location.href,
+      page_referrer: document.referrer || undefined,
+      page_title: document.title
+    });
+    dataLayer.push({
+      event: 'page_view',
+      event_source: 'dh_DataLayer',
+      page_location: location.href,
+      page_referrer: document.referrer || undefined,
+      page_title: document.title
+    });
+  }
+
+  var THEME_GTM_ID = 'GTM-XXXXXXXXXX';
+  function gtmLoaded(id){
+    return !!(window.google_tag_manager && window.google_tag_manager[id]) ||
+           !!document.querySelector('script[src*="www.googletagmanager.com/gtm.js?id=' + id + '"]');
+  }
+  if (THEME_GTM_ID && !gtmLoaded(THEME_GTM_ID)) {
+    (function(w,d,s,l,i){
+      w[l]=w[l]||[];
+      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+      j.async=true;
+      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer', THEME_GTM_ID);
+  }
+})();
+</script>
