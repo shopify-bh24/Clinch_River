@@ -14,6 +14,8 @@
       {% endif %}
     </title>
 
+    {% render 'sg_custom_pixel' %}
+
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
