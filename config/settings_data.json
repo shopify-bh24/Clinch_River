@@ -262,6 +262,7 @@
         "disabled": true,
         "settings": {}
       },
+<<<<<<< HEAD
       "3243910605452009494": {
         "type": "shopify://apps/oo-eu-tax-exemption/blocks/tax-exemption/bc577450-6605-4fce-887f-6c25c2bccc22",
         "disabled": false,
@@ -352,6 +353,20 @@
           "link_hover": "rgba(0,0,0,0)",
           "shadow": "rgba(0,0,0,0)"
         }
+=======
+      "4474911850602290123": {
+        "type": "shopify://apps/google-merchant-widget/blocks/google-widget/019c01f8-75c0-73a6-b9be-6a17460a3b8a",
+        "disabled": false,
+        "settings": {
+          "enabled": true,
+          "position": "LEFT_BOTTOM"
+        }
+      },
+      "12439146293631897289": {
+        "type": "shopify://apps/blockify-fraud-filter/blocks/app_embed/2e3e0ba5-0e70-447a-9ec5-3bf76b5ef12e",
+        "disabled": false,
+        "settings": {}
+>>>>>>> 8a26b8770f33eeb0c2eead2040dcd16c8ddbca85
       }
     }
   },

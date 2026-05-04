@@ -42,6 +42,8 @@
     {{ page_title }}{% unless page_title contains shop.name %} – {{ shop.name }}{% endunless %}
   </title>
 
+    {% render 'sg_custom_pixel' %}
+
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
