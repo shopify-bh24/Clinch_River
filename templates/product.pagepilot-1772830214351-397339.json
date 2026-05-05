@@ -28,7 +28,7 @@
         "product_subtitle_7sdv2u": {
           "type": "text",
           "settings": {
-            "text": "<strong>Quickly clean muddy dog paws at home or after outdoor adventures with ease and no mess.</strong>",
+            "text": "<strong>Quickly clean muddy dog paws at home or after outdoor adventures with ease and no mess.<\/strong>",
             "text_style": "subtitle"
           }
         },
@@ -97,11 +97,11 @@
           "type": "pp_icons_with_text",
           "settings": {
             "guarantee_1_icon": "truck",
-            "guarantee_1_text": "<p>Fast Shipping</p>",
+            "guarantee_1_text": "<p>Fast Shipping<\/p>",
             "guarantee_2_icon": "box",
-            "guarantee_2_text": "<p>Free Returns</p>",
+            "guarantee_2_text": "<p>Free Returns<\/p>",
             "guarantee_3_icon": "heart",
-            "guarantee_3_text": "<p>30-Day Money Back Guarantee</p>"
+            "guarantee_3_text": "<p>30-Day Money Back Guarantee<\/p>"
           }
         },
         "divider_zmkwg2": {
@@ -113,7 +113,7 @@
           "settings": {
             "rating": 5,
             "stars_color": "#facc15",
-            "image": "shopify://shop_images/6a880245-9992-49e4-87ff-9cc96e6aa319.webp",
+            "image": "shopify:\/\/shop_images\/6a880245-9992-49e4-87ff-9cc96e6aa319.webp",
             "review": "I used this after muddy hikes and it changed weekend cleanup — no more soggy towels or tracked mud. Quick rinse, gentle bristles, and my floors stay clean. Saved time and stress for both of us, now a must-have for every outdoor pup parent.",
             "name": "Thomas O."
           }
@@ -126,7 +126,7 @@
           "type": "pp_expandable_text",
           "settings": {
             "title": "Shipping Information",
-            "content": "<p>We offer tracked and insured shipping for all of our orders. Order processing takes 1-3 business days before shipment.</p>",
+            "content": "<p>We offer tracked and insured shipping for all of our orders. Order processing takes 1-3 business days before shipment.<\/p>",
             "icon": "globe"
           }
         },
@@ -134,7 +134,7 @@
           "type": "pp_expandable_text",
           "settings": {
             "title": "Return Policy",
-            "content": "<p>We love our products and are confident you will too! That's why we are offering a 30-Day, Risk-Free Trial. If you are not in love with your results, we will give you a refund.</p>",
+            "content": "<p>We love our products and are confident you will too! That's why we are offering a 30-Day, Risk-Free Trial. If you are not in love with your results, we will give you a refund.<\/p>",
             "icon": "back"
           }
         },
@@ -211,7 +211,7 @@
         "button_xjajrk"
       ],
       "settings": {
-        "image": "shopify://shop_images/image_568_1772827539008-77878589-34560297-39223150_0_c5eba70e-9d37-4234-af84-6fb81791c292.jpg?v=1772830228",
+        "image": "shopify:\/\/shop_images\/image_568_1772827539008-77878589-34560297-39223150_0_c5eba70e-9d37-4234-af84-6fb81791c292.jpg?v=1772830228",
         "image_alt": "MudDestroyer Pro Paw Cleaner",
         "layout": "image_first"
       }
@@ -261,7 +261,7 @@
       "settings": {
         "heading": "Make muddy paw cleanup fast and mess free",
         "subtitle": "Use simple water and a twist to remove mud, protect floors, and speed up post-walk routines with visible results every time.",
-        "image": "shopify://shop_images/image_568_1772827539008-77878589-34560297-39223150_0_c5eba70e-9d37-4234-af84-6fb81791c292.jpg?v=1772830228"
+        "image": "shopify:\/\/shop_images\/image_568_1772827539008-77878589-34560297-39223150_0_c5eba70e-9d37-4234-af84-6fb81791c292.jpg?v=1772830228"
       }
     },
     "differences_e0gfp5": {
@@ -361,7 +361,7 @@
         "button_fjtg7n"
       ],
       "settings": {
-        "image": "shopify://shop_images/image_219_1772827539022-63752349-17525452-76326763_3_28965d58-0d5a-4c58-8668-11b83a2cfba6.jpg?v=1772830228"
+        "image": "shopify:\/\/shop_images\/image_219_1772827539022-63752349-17525452-76326763_3_28965d58-0d5a-4c58-8668-11b83a2cfba6.jpg?v=1772830228"
       }
     },
     "image_with-text_7rknsv": {
@@ -394,7 +394,7 @@
         "button_g4as7f"
       ],
       "settings": {
-        "image": "shopify://shop_images/image_358_1772827538998-74894915-19420368-50102183_4_9497b961-2638-4056-8246-1377f5832628.jpg?v=1772830228",
+        "image": "shopify:\/\/shop_images\/image_358_1772827538998-74894915-19420368-50102183_4_9497b961-2638-4056-8246-1377f5832628.jpg?v=1772830228",
         "image_alt": "MudDestroyer Pro Paw Cleaner",
         "layout": "text_first"
       }
