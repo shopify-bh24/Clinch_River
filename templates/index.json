@@ -87,6 +87,7 @@
           "type": "collection",
           "settings": {
             "collection": "cartography-1",
+            "image": "shopify://shop_images/map-of-the-world.png",
             "link": "shopify://collections/cartography-1"
           }
         },
