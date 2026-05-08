@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/boat-with-minn-kota-motors-displayed-on-the-side.png",
-            "mobile_image": "shopify://shop_images/speedboat-on-water.png",
+            "mobile_image": "shopify://shop_images/boat-with-minn-kota-motors-displayed-on-the-side.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
