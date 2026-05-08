@@ -15,7 +15,7 @@
         "image_Lr44px": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/boat-sailing-on-the-ocen_398915e8-ff11-4054-bac1-0a74a09ed7a3.png",
+            "image": "shopify://shop_images/boat-sailing-on-the-ocen_398915e8-ff11-4054-bac1-0a74a09ed7a3.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -45,18 +45,19 @@
       "blocks": {
         "offer-1": {
           "type": "offer",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/exclusive-offers.png",
+            "image": "shopify://shop_images/exclusive-offers.png",
             "title": "Exclusive offers",
-            "content": "<p>Enjoy great discounts on a wide range of marine electronics, outdoor gear and fishing and hunting accessories<\/p>"
+            "content": "<p>Enjoy great discounts on a wide range of marine electronics, outdoor gear and fishing and hunting accessories</p>"
           }
         },
         "offer-2": {
           "type": "offer",
           "settings": {
-            "image": "shopify:\/\/shop_images\/free-shipping.png",
+            "image": "shopify://shop_images/free-shipping.png",
             "title": "Same Day Free shipping for all orders over $150 placed before 4PM GMT",
-            "content": "<p>We got you covered ! We deliver your goods using USPS, UPS, Fedex, DHL and other carriers. Full tracking provided. Express shipping available.<\/p>"
+            "content": "<p>We got you covered ! We deliver your goods using USPS, UPS, Fedex, DHL and other carriers. Full tracking provided. Express shipping available.</p>"
           }
         }
       },
@@ -77,14 +78,14 @@
           "type": "collection",
           "settings": {
             "collection": "automotive-rv",
-            "link": "shopify:\/\/collections\/automotive-rv"
+            "link": "shopify://collections/automotive-rv"
           }
         },
         "collection-2": {
           "type": "collection",
           "settings": {
             "collection": "cartography-1",
-            "link": "shopify:\/\/collections\/cartography-1"
+            "link": "shopify://collections/cartography-1"
           }
         },
         "collection-3": {
@@ -105,8 +106,8 @@
           "type": "collection",
           "settings": {
             "collection": "camping-1",
-            "image": "shopify:\/\/shop_images\/dspic_77b3b670-801b-46e7-b65b-d0adcf8c3604.jpg",
-            "link": "shopify:\/\/collections\/camping-1"
+            "image": "shopify://shop_images/dspic_77b3b670-801b-46e7-b65b-d0adcf8c3604.jpg",
+            "link": "shopify://collections/camping-1"
           }
         }
       },
@@ -120,7 +121,7 @@
       "settings": {
         "title": "Our collections",
         "link_title": "View all",
-        "link": "shopify:\/\/collections",
+        "link": "shopify://collections",
         "round_images": true,
         "show_collection_title": true
       }
@@ -144,7 +145,7 @@
         "item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/garmin-electronics.png",
+            "image": "shopify://shop_images/garmin-electronics.png",
             "show_overlay": false,
             "overlay_opacity": 50,
             "background": "#ff2e1f",
@@ -161,7 +162,7 @@
         "item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/survival-tools.png",
+            "image": "shopify://shop_images/survival-tools.png",
             "show_overlay": false,
             "overlay_opacity": 50,
             "background": "#383639",
@@ -178,12 +179,12 @@
         "item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/minn-kota-trolling-motor.png",
+            "image": "shopify://shop_images/clinch-about-banner-GZjzwwB7YhTTGpsNttGDBB.webp",
             "show_overlay": false,
             "overlay_opacity": 50,
             "background": "#f3f4f4",
             "text_color": "#000000",
-            "title": "Trolling Motors",
+            "title": "",
             "content": "",
             "content_position": "top_left",
             "button_background": "#4f5558",
@@ -195,7 +196,7 @@
         "item-4": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/garmin-fishfinder.png",
+            "image": "shopify://shop_images/garmin-fishfinder.png",
             "show_overlay": false,
             "overlay_opacity": 50,
             "background": "#f3f4f4",
@@ -212,7 +213,7 @@
         "item-5": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/camping-tent.png",
+            "image": "shopify://shop_images/camping-tent.png",
             "show_overlay": false,
             "overlay_opacity": 50,
             "background": "#383639",
@@ -241,13 +242,14 @@
     },
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "text_width": "narrow",
         "title": "About us",
-        "content": "<p>Founded in Tennessee and inspired by the waters of the Clinch River, our mission is simple: to provide anglers, boaters, and outdoor enthusiasts with reliable equipment, fair pricing, and honest service.<\/p><p>We proudly offer a curated selection of rods, reels, tackle, marine electronics, and boating accessories from brands we know and trust. Every product we list is vetted for quality, warranty support, and authenticity — no third-party marketplaces or unverified dropship items.<\/p><p>Customer satisfaction is at the heart of our business. Our small team of avid fishermen personally oversees each order with care, ensuring accurate product descriptions, clear shipping timelines, and responsive communication.<\/p><p><strong>Need help?<\/strong> Contact us anytime at <a>admin@clinchriverfishingusa.com <\/a>or call <strong>865-607-9472<\/strong>.<\/p>",
+        "content": "<p>Founded in Tennessee and inspired by the waters of the Clinch River, our mission is simple: to provide anglers, boaters, and outdoor enthusiasts with reliable equipment, fair pricing, and honest service.</p><p>We proudly offer a curated selection of rods, reels, tackle, marine electronics, and boating accessories from brands we know and trust. Every product we list is vetted for quality, warranty support, and authenticity — no third-party marketplaces or unverified dropship items.</p><p>Customer satisfaction is at the heart of our business. Our small team of avid fishermen personally oversees each order with care, ensuring accurate product descriptions, clear shipping timelines, and responsive communication.</p><p><strong>Need help?</strong> Contact us anytime at <a>admin@clinchriverfishingusa.com </a>or call <strong>865-607-9472</strong>.</p>",
         "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
+        "button_link": "shopify://collections/all"
       }
     },
     "logo-list": {
@@ -256,36 +258,36 @@
         "logo-2": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/minnkotalogo2_7c2f03f5-fe36-4dd7-a8b8-8740b6235b98.jpg",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/minnkotalogo2_7c2f03f5-fe36-4dd7-a8b8-8740b6235b98.jpg",
+            "link": "shopify://collections"
           }
         },
         "logo-3": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/berkleylogo.jpg",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/berkleylogo.jpg",
+            "link": "shopify://collections"
           }
         },
         "logo-4": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rapala-Sweepstakes_rev.png",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/Rapala-Sweepstakes_rev.png",
+            "link": "shopify://collections"
           }
         },
         "logo-5": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/humminbirdlogo2.jpg",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/humminbirdlogo2.jpg",
+            "link": "shopify://collections"
           }
         },
         "logo-6": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coleman.jpg",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/coleman.jpg",
+            "link": "shopify://collections"
           }
         }
       },
@@ -317,7 +319,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#2d2d2d",
         "button_text": "Buy Now & Get Ready For Spring",
-        "button_link": "shopify:\/\/collections\/minn-kota-50-off"
+        "button_link": "shopify://collections/minn-kota-50-off"
       }
     },
     "featured-collection-1": {
@@ -331,14 +333,14 @@
         "stack_products": false,
         "show_quick_buy": false,
         "link_title": "View all",
-        "link_url": "shopify:\/\/collections"
+        "link_url": "shopify://collections"
       }
     },
     "newsletter": {
       "type": "newsletter",
       "settings": {
         "title": "Let's keep in touch",
-        "content": "<p>Subscribe to our weekly newsletter and receive exclusive offers on products you love!<\/p>",
+        "content": "<p>Subscribe to our weekly newsletter and receive exclusive offers on products you love!</p>",
         "background": "rgba(0,0,0,0)",
         "text": "#677279"
       }
@@ -350,7 +352,7 @@
           "type": "link",
           "settings": {
             "title": "Motors",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify://collections/all"
           }
         },
         "link-2": {
@@ -364,28 +366,28 @@
           "type": "link",
           "settings": {
             "title": "Fish Finders",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         },
         "link-4": {
           "type": "link",
           "settings": {
             "title": "Camping",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         },
         "link-5": {
           "type": "link",
           "settings": {
             "title": "Fishing",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         },
         "link-6": {
           "type": "link",
           "settings": {
             "title": "Accessories",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         }
       },
@@ -416,7 +418,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_medals_EDqnTe": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         }
       },
@@ -444,7 +446,7 @@
       "name": "Custom HTML",
       "settings": {
         "title": "Trust Pilot Reviews",
-        "html": "<p><\/p><div id=\"shapo-widget-0b01ce2fed4176b989ef\"><\/div>\n<script id=\"shapo-embed-js\" type=\"text\/javascript\" src=\"https:\/\/cdn.shapo.io\/js\/embed.js\" defer><\/script>"
+        "html": "<p></p><div id=\"shapo-widget-0b01ce2fed4176b989ef\"></div>\n<script id=\"shapo-embed-js\" type=\"text/javascript\" src=\"https://cdn.shapo.io/js/embed.js\" defer></script>"
       }
     }
   },
