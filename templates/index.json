@@ -56,7 +56,7 @@
         "offer-2": {
           "type": "offer",
           "settings": {
-            "image": "shopify://shop_images/free-shipping.png",
+            "image": "shopify://shop_images/free-shipping-on-all-orders-over-150.png",
             "title": "Same Day Free shipping for all orders over $150 placed before 4PM GMT",
             "content": "<p>We got you covered ! We deliver your goods using USPS, UPS, Fedex, DHL and other carriers. Full tracking provided. Express shipping available.</p>"
           }
