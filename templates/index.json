@@ -341,15 +341,6 @@
         "link_url": "shopify://collections"
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "title": "Let's keep in touch",
-        "content": "<p>Subscribe to our weekly newsletter and receive exclusive offers on products you love!</p>",
-        "background": "rgba(0,0,0,0)",
-        "text": "#677279"
-      }
-    },
     "quick-links": {
       "type": "quick-links",
       "blocks": {
@@ -450,8 +441,8 @@
       "type": "custom-html",
       "name": "Custom HTML",
       "settings": {
-        "title": "Trust Pilot Reviews",
-        "html": "<p></p><div id=\"shapo-widget-0b01ce2fed4176b989ef\"></div>\n<script id=\"shapo-embed-js\" type=\"text/javascript\" src=\"https://cdn.shapo.io/js/embed.js\" defer></script>"
+        "title": "",
+        "html": "<p></p>\n\n<!-- JPG Image -->\n<img src=\"https://cdn.shopify.com/s/files/1/0907/4271/8779/files/download.png?v=1778256594\" alt=\"Clinch River Fishing Company\" style=\"max-width:100%; height:70; display:block; margin:20px auto;\">\n\n<!-- Shapo Widget -->\n<div id=\"shapo-widget-0b01ce2fed4176b989ef\"></div>\n\n<script id=\"shapo-embed-js\" type=\"text/javascript\" src=\"https://cdn.shapo.io/js/embed.js\" defer></script>"
       }
     }
   },
@@ -465,7 +456,6 @@
     "logo-list",
     "collection-with-image",
     "featured-collection-1",
-    "newsletter",
     "quick-links",
     "1758649406169a5352",
     "17586587554d0dc0f5",
