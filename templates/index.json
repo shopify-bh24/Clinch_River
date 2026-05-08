@@ -15,7 +15,8 @@
         "image_Lr44px": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/boat-sailing-on-the-ocen_398915e8-ff11-4054-bac1-0a74a09ed7a3.png",
+            "image": "shopify://shop_images/boat-with-minn-kota-motors-displayed-on-the-side.png",
+            "mobile_image": "shopify://shop_images/speedboat-on-water.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -135,7 +136,7 @@
         "title": "Featured collection",
         "products_count": 12,
         "layout": "vertical",
-        "stack_products": false,
+        "stack_products": true,
         "show_quick_buy": true,
         "link_title": "",
         "link_url": ""
