@@ -94,6 +94,7 @@
           "type": "collection",
           "settings": {
             "collection": "boating-and-fishing",
+            "image": "shopify://shop_images/boat-with-parts-displayed-below.png",
             "link": ""
           }
         },
