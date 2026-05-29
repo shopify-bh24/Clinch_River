@@ -25,7 +25,7 @@
     "header_background": "#000000",
     "header_text_color": "#ffffff",
     "header_light_text_color": "#cccccc",
-    "header_accent_color": "#ffffff",
+    "header_accent_color": "#000000",
     "footer_background_color": "#1a1a1a",
     "footer_heading_text_color": "#ffffff",
     "footer_body_text_color": "#cccccc",
