@@ -16,7 +16,7 @@
       "settings": {
         "background": "#131313",
         "text_color": "#f5e4e4",
-        "text": "Need Help?  Call 865-607-9472 -",
+        "text": "Need Help?  Call 865-607-9472",
         "text_position": "center",
         "link": "",
         "show_newsletter": false,
@@ -29,9 +29,9 @@
       "type": "header",
       "settings": {
         "enable_sticky_header": false,
-        "logo": "shopify://shop_images/ChatGPT_Image_May_14_2026_01_11_31_PM.png",
-        "logo_max_width": 130,
-        "mobile_logo_max_width": 125,
+        "logo": "shopify://shop_images/clinch-river-fishing-usa-logo.png",
+        "logo_max_width": 265,
+        "mobile_logo_max_width": 135,
         "show_locale_selector": true,
         "show_country_selector": false,
         "navigation_menu": "main-menu",
