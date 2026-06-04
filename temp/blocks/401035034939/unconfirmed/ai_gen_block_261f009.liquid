@@ -1,6 +1,379 @@
+{% doc %}
+  @prompt
+    Create a Shop Pay Installments messaging block for product pages that displays "As low as [amount]/mo with Shop Pay" near the price or Add to Cart button. The block should use Shopify's built-in Shop Pay Installments liquid objects or the shop-pay-installments component to dynamically calculate and display the installment amount based on the product price. Style it to match a premium, dark aesthetic with the Shop Pay logo/branding. It should only display when the product price is within the eligible range for Shop Pay Installments.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-shop-pay-installments-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    margin: {{ block.settings.spacing_top }}px 0 {{ block.settings.spacing_bottom }}px 0;
+  }
+
+  .ai-shop-pay-installments-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: {{ block.settings.padding_vertical }}px {{ block.settings.padding_horizontal }}px;
+    background-color: {{ block.settings.background_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+    border: {{ block.settings.border_width }}px solid {{ block.settings.border_color }};
+  }
+
+  .ai-shop-pay-installments-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.font_size }}px;
+    color: {{ block.settings.text_color }};
+    font-weight: {{ block.settings.font_weight }};
+    line-height: 1.4;
+  }
+
+  .ai-shop-pay-installments-amount-{{ ai_gen_id }} {
+    font-weight: 600;
+    color: {{ block.settings.amount_color }};
+  }
+
+  .ai-shop-pay-installments-logo-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    height: {{ block.settings.logo_height }}px;
+  }
+
+  .ai-shop-pay-installments-logo-{{ ai_gen_id }} svg {
+    height: 100%;
+    width: auto;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-shop-pay-installments-{{ ai_gen_id }} {
+      width: 100%;
+    }
+
+    .ai-shop-pay-installments-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.font_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+{% liquid
+  if product.selected_or_first_available_variant
+    assign variant_price = product.selected_or_first_available_variant.price
+  else
+    assign variant_price = product.price
+  endif
+
+  assign min_price = block.settings.min_eligible_price | times: 100
+  assign max_price = block.settings.max_eligible_price | times: 100
+  assign is_eligible = false
+
+  if variant_price >= min_price and variant_price <= max_price
+    assign is_eligible = true
+  endif
+
+  assign installment_count = block.settings.installment_count
+  assign installment_amount = variant_price | divided_by: installment_count
+%}
+
+{% if is_eligible %}
+  <shop-pay-installments-{{ ai_gen_id }}
+    class="ai-shop-pay-installments-{{ ai_gen_id }}"
+    {{ block.shopify_attributes }}
+  >
+    <div class="ai-shop-pay-installments-wrapper-{{ ai_gen_id }}">
+      <div class="ai-shop-pay-installments-text-{{ ai_gen_id }}">
+        {{ block.settings.prefix_text }}
+        <span class="ai-shop-pay-installments-amount-{{ ai_gen_id }}">
+          {{ installment_amount | money }}
+        </span>
+        {{ block.settings.suffix_text }}
+      </div>
+      {% if block.settings.show_logo %}
+        <div class="ai-shop-pay-installments-logo-{{ ai_gen_id }}">
+          <svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg" fill="{{ block.settings.logo_color }}">
+            <path d="M58.3 5.8c-1.1 0-2 .4-2.7 1.1v-.9h-2.5v13.2h2.6V14c.7.7 1.6 1.1 2.7 1.1 2.5 0 4.3-2 4.3-4.7 0-2.6-1.8-4.6-4.4-4.6zm-.4 7.1c-1.3 0-2.3-1-2.3-2.4s1-2.4 2.3-2.4c1.3 0 2.2 1 2.2 2.4s-.9 2.4-2.2 2.4zM71.3 5.8c-1.5 0-2.8.7-3.5 1.8-.6-1.1-1.8-1.8-3.2-1.8-1.1 0-2 .4-2.7 1.1v-.9h-2.5v8.8h2.6V9.3c0-1.3.8-2.2 1.9-2.2s1.8.9 1.8 2.2v5.5h2.6V9.3c0-1.3.8-2.2 1.9-2.2s1.8.9 1.8 2.2v5.5H75V9c0-2.2-1.5-3.2-3.7-3.2zM49.8 5.8c-2.6 0-4.7 2.1-4.7 4.7s2.1 4.6 4.7 4.6c1.4 0 2.6-.5 3.5-1.4l-1.4-1.5c-.6.5-1.3.8-2.1.8-1.1 0-2-.6-2.3-1.6h6.5c0-.2.1-.5.1-.8 0-2.7-1.9-4.8-4.3-4.8zm-2 3.7c.3-.9 1.1-1.5 2-1.5s1.7.6 1.9 1.5h-3.9zM38.9 5.8c-1.4 0-2.6.6-3.3 1.6V0h-2.6v14.8h2.6v-5.3c0-1.5 1-2.4 2.4-2.4s2.3.9 2.3 2.4v5.3H43V9.1c0-2.2-1.6-3.3-4.1-3.3zM28.1 8.1c0-1.4-1.1-2.3-3.3-2.3-1.8 0-3.4.7-4.2 2l1.9 1.2c.4-.7 1.2-1.1 2.2-1.1.9 0 1.3.3 1.3.8 0 .4-.5.6-1.8.8-1.8.2-3.9.7-3.9 3 0 1.7 1.4 2.6 3.2 2.6 1.3 0 2.3-.5 3-1.2.1.4.2.7.4 1h2.7c-.3-.5-.5-1.3-.5-2.2V8.1zm-2.6 2.6c0 1.2-1 2-2.3 2s-1.8-.5-1.8-1.2c0-.8.7-1.1 1.8-1.3 1-.2 1.7-.4 2.2-.7v1.2zM11.5 8.4c0-1-.8-1.6-2.5-1.6-1.4 0-2.6.6-3.2 1.6l1.8 1.1c.3-.5.9-.8 1.5-.8.5 0 .8.2.8.5 0 1.4-4.6.3-4.6 3.7 0 1.5 1.2 2.3 2.9 2.3 1.2 0 2.1-.5 2.7-1.2l.2 1h2.2V8.9c0-.2 0-.3-.1-.5h.3zm-2.4 3.6c0 1-1 1.7-2.1 1.7-.7 0-1.2-.3-1.2-.9 0-1.3 3.3-.5 3.3-2.5v1.7zM16.3 15.1c1.6 0 2.8-.6 3.6-1.7l-1.8-1.1c-.4.5-1 .8-1.7.8-1.1 0-2-.8-2.2-2h6.2v-.7c0-2.5-1.7-4.6-4.3-4.6-2.5 0-4.4 2-4.4 4.7 0 2.6 1.9 4.6 4.6 4.6zm-2-5.7c.3-.9 1-1.4 1.9-1.4.9 0 1.6.5 1.8 1.4h-3.7z"/>
+          </svg>
+        </div>
+      {% endif %}
+    </div>
+  </shop-pay-installments-{{ ai_gen_id }}>
+
+  <script>
+    (function() {
+      class ShopPayInstallments{{ ai_gen_id }} extends HTMLElement {
+        constructor() {
+          super();
+        }
+
+        connectedCallback() {
+          this.setupVariantListener();
+        }
+
+        setupVariantListener() {
+          const productForm = document.querySelector('form[action*="/cart/add"]');
+          if (!productForm) return;
+
+          const variantInput = productForm.querySelector('[name="id"]');
+          if (!variantInput) return;
+
+          variantInput.addEventListener('change', () => {
+            this.updateInstallmentAmount();
+          });
+        }
+
+        updateInstallmentAmount() {
+          const productForm = document.querySelector('form[action*="/cart/add"]');
+          if (!productForm) return;
+
+          const variantInput = productForm.querySelector('[name="id"]');
+          if (!variantInput) return;
+
+          const variantId = variantInput.value;
+          const productData = window.ShopifyAnalytics?.meta?.product;
+
+          if (!productData) return;
+
+          const variant = productData.variants.find(v => v.id == variantId);
+          if (!variant) return;
+
+          const price = variant.price;
+          const minPrice = {{ block.settings.min_eligible_price | times: 100 }};
+          const maxPrice = {{ block.settings.max_eligible_price | times: 100 }};
+
+          if (price >= minPrice && price <= maxPrice) {
+            const installmentCount = {{ block.settings.installment_count }};
+            const installmentAmount = price / installmentCount;
+            const formattedAmount = new Intl.NumberFormat('{{ localization.language.iso_code }}', {
+              style: 'currency',
+              currency: '{{ cart.currency.iso_code }}'
+            }).format(installmentAmount / 100);
+
+            const amountElement = this.querySelector('.ai-shop-pay-installments-amount-{{ ai_gen_id }}');
+            if (amountElement) {
+              amountElement.textContent = formattedAmount;
+            }
+
+            this.style.display = 'block';
+          } else {
+            this.style.display = 'none';
+          }
+        }
+      }
+
+      customElements.define('shop-pay-installments-{{ ai_gen_id }}', ShopPayInstallments{{ ai_gen_id }});
+    })();
+  </script>
+{% endif %}
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Shop Pay installments",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "prefix_text",
+      "label": "Prefix text",
+      "default": "As low as"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "suffix_text",
+      "label": "Suffix text",
+      "default": "/mo with Shop Pay"
+    },
+    {
+      "type": "range",
+      "id": "installment_count",
+      "label": "Number of installments",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Eligibility"
+    },
+    {
+      "type": "text",
+      "id": "min_eligible_price",
+      "label": "Minimum price",
+      "default": "50"
+    },
+    {
+      "type": "text",
+      "id": "max_eligible_price",
+      "label": "Maximum price",
+      "default": "17500"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "amount_color",
+      "label": "Amount color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#f5f5f5"
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "label": "Vertical padding",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "label": "Border width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#333333"
+    },
+    {
+      "type": "header",
+      "content": "Shop Pay logo"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_logo",
+      "label": "Show Shop Pay logo",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "logo_height",
+      "label": "Logo height",
+      "min": 12,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "logo_color",
+      "label": "Logo color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "spacing_top",
+      "label": "Top spacing",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "spacing_bottom",
+      "label": "Bottom spacing",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shop Pay installments"
+    }
+  ]
+}
 {% endschema %}
