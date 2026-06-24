@@ -181,23 +181,6 @@
             "link": ""
           }
         },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/clinch-about-banner-GZjzwwB7YhTTGpsNttGDBB.webp",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#000000",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
-          }
-        },
         "item-4": {
           "type": "item",
           "settings": {
@@ -236,7 +219,6 @@
       "block_order": [
         "item-1",
         "item-2",
-        "item-3",
         "item-4",
         "item-5"
       ],
