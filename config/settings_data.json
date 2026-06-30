@@ -119,6 +119,11 @@
         "type": "shopify://apps/privy-pop-ups-email-sms/blocks/privy-convert-production/1d8599fa-4edf-4071-bda6-4d5d6d82de9c",
         "disabled": false,
         "settings": {}
+      },
+      "8670728856252544919": {
+        "type": "shopify://apps/essential-estimated/blocks/app-embed/02a895dd-b5b5-4103-8966-c6914aa8309e",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
