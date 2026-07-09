@@ -60,18 +60,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "brand_information_9WTx6K": {
-          "type": "brand_information",
-          "settings": {
-            "title": "Contact us",
-            "business": "Company",
-            "footer_address": "United States.",
-            "footer_contact_no": "0123-456-789",
-            "footer_contact_id": "Email: example@example.com",
-            "contsubtext": "<p>Find a nearest Store location</p>",
-            "tdescription_style": "body"
-          }
-        },
         "links_3eiiFW": {
           "type": "links",
           "settings": {
@@ -112,7 +100,6 @@
         }
       },
       "block_order": [
-        "brand_information_9WTx6K",
         "links_3eiiFW",
         "footer-0",
         "brand_information_ymtFLy",
