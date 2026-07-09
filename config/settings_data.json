@@ -124,6 +124,11 @@
         "type": "shopify://apps/essential-estimated/blocks/app-embed/02a895dd-b5b5-4103-8966-c6914aa8309e",
         "disabled": false,
         "settings": {}
+      },
+      "7304967717925385168": {
+        "type": "shopify://apps/iconito/blocks/app-embed/d20e5397-bfe7-44f3-8deb-419dc8b912ab",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
