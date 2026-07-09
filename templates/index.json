@@ -136,7 +136,7 @@
       "settings": {
         "collection": "boat-outfitting",
         "title": "Featured collection",
-        "products_count": 20,
+        "products_count": 18,
         "layout": "vertical",
         "stack_products": true,
         "show_quick_buy": true,
