@@ -446,6 +446,14 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_html_qMxUjh": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "title": "",
+        "html": "<a href=\"https://www.bbb.org/us/tn/clinton/profile/marine-supplies/clinch-river-fishing-usa-0533-90043686/#sealclick\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://seal-knoxville.bbb.org/seals/blue-seal-250-52-bbb-90043686.png\" style=\"border: 0;\" alt=\"Clinch River Fishing USA BBB Business Review\"></a>"
+      }
     }
   },
   "order": [
@@ -464,6 +472,7 @@
     "1759950549972516f9",
     "176132125025608bbb",
     "custom_html_RJiaUt",
-    "17816432346885d311"
+    "17816432346885d311",
+    "custom_html_qMxUjh"
   ]
 }
