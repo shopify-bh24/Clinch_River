@@ -1,0 +1,1 @@
+{"type":"custom.overlay","name":"Overlay group","sections":{"popups":{"type":"popups","settings":{}},"1757611946fcdabeaa":{"type":"apps","settings":{"include_margins":true}},"privacy-banner":{"type":"privacy-banner","disabled":true,"settings":{"text":"<p>Use this bar to show information about your cookie policy.<\/p>"}}},"order":["popups","1757611946fcdabeaa","privacy-banner"]}
