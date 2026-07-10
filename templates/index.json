@@ -1,0 +1,478 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Lr44px": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/make-the-pciture-lighter.png",
+            "mobile_image": "shopify:\/\/shop_images\/make-the-pciture-lighter.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Lr44px"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "preserve_ratio",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "offers": {
+      "type": "offers",
+      "blocks": {
+        "offer-1": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/exclusive-offers.png",
+            "title": "Exclusive offers",
+            "content": "<p>Enjoy great discounts on a wide range of marine electronics, outdoor gear and fishing and hunting accessories<\/p>"
+          }
+        },
+        "offer-2": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-shipping-on-all-orders-over-150.png",
+            "title": "Same Day Free shipping for all orders over $150 placed before 4PM GMT",
+            "content": "<p>We got you covered ! We deliver your goods using USPS, UPS, Fedex, DHL and other carriers. Full tracking provided. Express shipping available.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "offer-1",
+        "offer-2"
+      ],
+      "name": "Offers",
+      "settings": {
+        "items_per_row": 1,
+        "stack_mobile": true
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "automotive-rv",
+            "image": "shopify:\/\/shop_images\/automotive-parts.png",
+            "link": "shopify:\/\/collections\/automotive-rv"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "cartography-1",
+            "image": "shopify:\/\/shop_images\/map-of-the-world.png",
+            "link": "shopify:\/\/collections\/cartography-1"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "boating-and-fishing",
+            "image": "shopify:\/\/shop_images\/boat-with-parts-displayed-below.png",
+            "link": ""
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "lighting",
+            "image": "shopify:\/\/shop_images\/boat-lighting.png",
+            "link": ""
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "camping-1",
+            "image": "shopify:\/\/shop_images\/dspic_77b3b670-801b-46e7-b65b-d0adcf8c3604.jpg",
+            "link": "shopify:\/\/collections\/camping-1"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-5",
+        "collection-6"
+      ],
+      "settings": {
+        "title": "Our collections",
+        "link_title": "View all",
+        "link": "shopify:\/\/collections",
+        "round_images": false,
+        "show_collection_title": true
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "boat-outfitting",
+        "title": "Featured collection",
+        "products_count": 18,
+        "layout": "vertical",
+        "stack_products": true,
+        "show_quick_buy": true,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
+    "mosaic": {
+      "type": "mosaic",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/garmin-electronics.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#ff2e1f",
+            "text_color": "#1d1e20",
+            "title": "Humminbird Accessories",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/survival-tools.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#383639",
+            "text_color": "#ffffff",
+            "title": "Survival",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/garmin-fishfinder.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#000000",
+            "title": "Garmin Accessories",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        },
+        "item-5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/camping-tent.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#383639",
+            "text_color": "#ffffff",
+            "title": "Camping Accessories",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-4",
+        "item-5"
+      ],
+      "name": "Mosaic",
+      "settings": {
+        "section_size": "medium"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "text_width": "narrow",
+        "title": "About us",
+        "content": "<p>Founded in Tennessee and inspired by the waters of the Clinch River, our mission is simple: to provide anglers, boaters, and outdoor enthusiasts with reliable equipment, fair pricing, and honest service.<\/p><p>We proudly offer a curated selection of rods, reels, tackle, marine electronics, and boating accessories from brands we know and trust. Every product we list is vetted for quality, warranty support, and authenticity — no third-party marketplaces or unverified dropship items.<\/p><p>Customer satisfaction is at the heart of our business. Our small team of avid fishermen personally oversees each order with care, ensuring accurate product descriptions, clear shipping timelines, and responsive communication.<\/p><p><strong>Need help?<\/strong> Contact us anytime at <a>admin@clinchriverfishingusa.com <\/a>or call <strong>865-607-9472<\/strong>.<\/p>",
+        "button_text": "Our products",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "logo-list": {
+      "type": "logo-list",
+      "blocks": {
+        "logo-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/minnkotalogo2_7c2f03f5-fe36-4dd7-a8b8-8740b6235b98.jpg",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "logo-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/berkleylogo.jpg",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "logo-4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rapala-Sweepstakes_rev.png",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "logo-5": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/humminbirdlogo2.jpg",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "logo-6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coleman.jpg",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "logo-2",
+        "logo-3",
+        "logo-4",
+        "logo-5",
+        "logo-6"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "title": "Brands we distribute",
+        "link_title": "",
+        "link": ""
+      }
+    },
+    "collection-with-image": {
+      "type": "collection-with-image",
+      "name": "Collection with image",
+      "settings": {
+        "collection": "minn-kota-50-off",
+        "products_count": 12,
+        "show_quick_buy": true,
+        "background": "#2d2d2d",
+        "text_color": "#ffffff",
+        "title": "Trolling Motors",
+        "content": "Here is our selection of trolling motors, picked by our experts.",
+        "button_background": "#ffffff",
+        "button_text_color": "#2d2d2d",
+        "button_text": "Summer Sale Now On!",
+        "button_link": "shopify:\/\/collections\/minn-kota-50-off"
+      }
+    },
+    "featured-collection-1": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "communication",
+        "title": "Top-rated products",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": "shopify:\/\/collections"
+      }
+    },
+    "quick-links": {
+      "type": "quick-links",
+      "blocks": {
+        "link-1": {
+          "type": "link",
+          "settings": {
+            "title": "Motors",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "link-2": {
+          "type": "link",
+          "settings": {
+            "title": "Speakers",
+            "link": ""
+          }
+        },
+        "link-3": {
+          "type": "link",
+          "settings": {
+            "title": "Fish Finders",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "link-4": {
+          "type": "link",
+          "settings": {
+            "title": "Camping",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "link-5": {
+          "type": "link",
+          "settings": {
+            "title": "Fishing",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "link-6": {
+          "type": "link",
+          "settings": {
+            "title": "Accessories",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "link-1",
+        "link-2",
+        "link-3",
+        "link-4",
+        "link-5",
+        "link-6"
+      ],
+      "name": "Quick links",
+      "settings": {
+        "title": "Quick links",
+        "expand_items": true,
+        "show_desktop": true,
+        "link_title": "",
+        "link": ""
+      }
+    },
+    "1758649406169a5352": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17586587554d0dc0f5": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_medals_EDqnTe": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_medals_EDqnTe"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1759950549972516f9": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "176132125025608bbb": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "custom_html_RJiaUt": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "title": "",
+        "html": "<p><\/p>\n\n<!-- JPG Image -->\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0907\/4271\/8779\/files\/download.png?v=1778256594\" alt=\"Clinch River Fishing Company\" style=\"max-width:90%; height:40; display:block; margin:20px auto;\">\n\n<!-- Shapo Widget -->\n<div id=\"shapo-widget-0b01ce2fed4176b989ef\"><\/div>\n\n<script id=\"shapo-embed-js\" type=\"text\/javascript\" src=\"https:\/\/cdn.shapo.io\/js\/embed.js\" defer><\/script>"
+      }
+    },
+    "17816432346885d311": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_trust_badge_p9wYtW": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/trust_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "structure": "default",
+            "color": "default",
+            "star": "default",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_trust_badge_p9wYtW"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "custom_html_qMxUjh": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "title": "",
+        "html": "<a href=\"https:\/\/www.bbb.org\/us\/tn\/clinton\/profile\/marine-supplies\/clinch-river-fishing-usa-0533-90043686\/#sealclick\" target=\"_blank\" rel=\"nofollow\"><img src=\"https:\/\/seal-knoxville.bbb.org\/seals\/blue-seal-250-52-bbb-90043686.png\" style=\"border: 0;\" alt=\"Clinch River Fishing USA BBB Business Review\"><\/a>"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "offers",
+    "collection-list",
+    "featured-collection",
+    "mosaic",
+    "rich-text",
+    "logo-list",
+    "collection-with-image",
+    "featured-collection-1",
+    "quick-links",
+    "1758649406169a5352",
+    "17586587554d0dc0f5",
+    "1759950549972516f9",
+    "176132125025608bbb",
+    "custom_html_RJiaUt",
+    "17816432346885d311",
+    "custom_html_qMxUjh"
+  ]
+}
