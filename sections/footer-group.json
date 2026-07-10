@@ -1,105 +1,3 @@
-<<<<<<< HEAD
-{
-    "type": "footer",
-    "name": "Footer group",
-    "sections": {
-        "text-with-icons": {
-            "type": "text-with-icons",
-            "blocks": {
-                "item-1": {
-                    "type": "item",
-                    "settings": {
-                        "icon": "bi-delivery",
-                        "title": "Free shipping",
-                        "content": "<p>Free shipping on all orders over $150<\/p>"
-                    }
-                },
-                "item-2": {
-                    "type": "item",
-                    "settings": {
-                        "icon": "bi-returns",
-                        "title": "30 Days Refund Polocy",
-                        "content": "<p>Hassle free return policy for 30 days from purchase.<\/p>"
-                    }
-                },
-                "item-3": {
-                    "type": "item",
-                    "settings": {
-                        "icon": "bi-customer-support",
-                        "title": "Same Day Shipment",
-                        "content": "<p>Same day shipment on all products ordered before 4PM<\/p>"
-                    }
-                },
-                "item-4": {
-                    "type": "item",
-                    "settings": {
-                        "icon": "bi-secure-payment",
-                        "title": "Secure payments",
-                        "content": "<p>Latest secure payment methods.<\/p>"
-                    }
-                }
-            },
-            "block_order": [
-                "item-1",
-                "item-2",
-                "item-3",
-                "item-4"
-            ],
-            "settings": {
-                "stack_mobile": false
-            }
-        },
-        "footer": {
-            "type": "footer",
-            "blocks": {
-                "footer-0": {
-                    "type": "text",
-                    "settings": {
-                        "title": "Our Story",
-                        "content": "<h3><\/h3><p>Clinch River Fishing Company was founded in 2017 with one mission in mind — to provide anglers and outdoor enthusiasts with quality marine electronics and fishing products at the best possible prices.<\/p><p>What started as a small operation near the scenic Clinch River in Tennessee has grown into a trusted name for fishermen and boaters across the country. With over a decade of experience in marine electronics, we’ve built our business on knowledge, service, and a passion for the water.<\/p><p>We believe that getting the right gear shouldn’t mean overpaying. That’s why we work directly with leading manufacturers and suppliers to bring you a wide selection of products from top brands — always paired with fair pricing and reliable customer support.<\/p><p>At Clinch River Fishing Company, we’re more than just a store — we’re part of your fishing journey. Whether you’re chasing bass at dawn, navigating open waters, or outfitting your boat with the latest technology, we’re here to make sure you have the tools you need for success.<\/p><p><strong>Quality Products. Honest Prices. Great Experiences.<\/strong> That’s been our promise since 2017, and it’s what keeps us moving forward every day.<\/p>"
-                    }
-                },
-                "footer-1": {
-                    "type": "links",
-                    "settings": {
-                        "menu": "footer"
-                    }
-                },
-                "footer-2": {
-                    "type": "newsletter",
-                    "settings": {
-                        "title": "Newsletter",
-                        "subheading": "<p>Receive news on our latest specials and product offerings<\/p>"
-                    }
-                }
-            },
-            "block_order": [
-                "footer-0",
-                "footer-1",
-                "footer-2"
-            ],
-            "settings": {
-                "show_social_media": true,
-                "enable_follow_on_shop": true,
-                "show_payment_icons": true,
-                "show_locale_selector": true,
-                "show_country_selector": true
-            }
-        },
-        "1758658110c0a021f7": {
-            "type": "apps",
-            "settings": {
-                "include_margins": true
-            }
-        }
-    },
-    "order": [
-        "text-with-icons",
-        "footer",
-        "1758658110c0a021f7"
-    ]
-}
-=======
 /*
  * ------------------------------------------------------------
  * IMPORTANT: The contents of this file are auto-generated.
@@ -120,16 +18,16 @@
           "type": "item",
           "settings": {
             "icon": "bi-delivery",
-            "title": "Free shipping",
-            "content": "<p>Free shipping on all orders over $150</p>"
+            "title": "Free shipping on over $150",
+            "content": "<p>Free shipping on all orders over $150<\/p>"
           }
         },
         "item-2": {
           "type": "item",
           "settings": {
             "icon": "bi-returns",
-            "title": "30 Days Refund Polocy",
-            "content": "<p>Hassle free return policy for 30 days from purchase.</p>"
+            "title": "30 Days Refund Policy",
+            "content": "<p>Hassle free return policy for 30 days from purchase.<\/p>"
           }
         },
         "item-3": {
@@ -137,7 +35,7 @@
           "settings": {
             "icon": "bi-customer-support",
             "title": "Same Day Shipment",
-            "content": "<p>Same day shipment on all products ordered before 4PM</p>"
+            "content": "<p>“In-stock items ship same day before 4PM ET; exclusions: backorders, freight, weekend\/holiday<br\/><br\/><\/p>"
           }
         },
         "item-4": {
@@ -145,7 +43,7 @@
           "settings": {
             "icon": "bi-secure-payment",
             "title": "Secure payments",
-            "content": "<p>Latest secure payment methods.</p>"
+            "content": "<p>Latest secure payment methods.<\/p>"
           }
         }
       },
@@ -162,11 +60,29 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "links_3eiiFW": {
+          "type": "links",
+          "settings": {
+            "menu": ""
+          }
+        },
         "footer-0": {
           "type": "text",
           "settings": {
             "title": "Our Story",
-            "content": "<h3></h3><p>Clinch River Fishing Company was founded in 2017 with one mission in mind — to provide anglers and outdoor enthusiasts with quality marine electronics and fishing products at the best possible prices.</p><p>What started as a small operation near the scenic Clinch River in Tennessee has grown into a trusted name for fishermen and boaters across the country. With over a decade of experience in marine electronics, we’ve built our business on knowledge, service, and a passion for the water.</p><p>We believe that getting the right gear shouldn’t mean overpaying. That’s why we work directly with leading manufacturers and suppliers to bring you a wide selection of products from top brands — always paired with fair pricing and reliable customer support.</p><p>At Clinch River Fishing Company, we’re more than just a store — we’re part of your fishing journey. Whether you’re chasing bass at dawn, navigating open waters, or outfitting your boat with the latest technology, we’re here to make sure you have the tools you need for success.</p><p><strong>Quality Products. Honest Prices. Great Experiences.</strong> That’s been our promise since 2017, and it’s what keeps us moving forward every day.</p>"
+            "content": "<p>Clinch River Fishing Company was founded in 2017 with one mission in mind — to provide anglers and outdoor enthusiasts with quality marine electronics and fishing products at the best possible prices.<\/p><p>What started as a small operation near the scenic Clinch River in Tennessee has grown into a trusted name for fishermen and boaters across the country. With over a decade of experience in marine electronics, we’ve built our business on knowledge, service, and a passion for the water.<\/p><p><\/p>"
+          }
+        },
+        "brand_information_ymtFLy": {
+          "type": "brand_information",
+          "settings": {
+            "title": "Contact us",
+            "business": "<strong>Business Name<\/strong>:  Clinch River Fishing USA",
+            "footer_address": "<strong>Address<\/strong>: 305 Westbury Drive, Clinton, TN 37716",
+            "footer_contact_no": "<strong>Phone Number<\/strong>: 865 607 9472",
+            "footer_contact_id": "<strong>Email<\/strong>: <a>admin@clinchriverfishingusa.com<\/a>",
+            "contsubtext": "<p><strong>Tax No <\/strong>: 41-2312585<\/p>",
+            "tdescription_style": "body"
           }
         },
         "footer-1": {
@@ -179,12 +95,14 @@
           "type": "newsletter",
           "settings": {
             "title": "Newsletter",
-            "subheading": "<p>Receive news on our latest specials and product offerings</p>"
+            "subheading": "<p>Receive news on our latest specials and product offerings<\/p>"
           }
         }
       },
       "block_order": [
+        "links_3eiiFW",
         "footer-0",
+        "brand_information_ymtFLy",
         "footer-1",
         "footer-2"
       ],
@@ -198,7 +116,9 @@
     },
     "1758658110c0a021f7": {
       "type": "apps",
-      "settings": {}
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -207,4 +127,3 @@
     "1758658110c0a021f7"
   ]
 }
->>>>>>> 791b14cb94c7930156d26f49317aa36ada0a60a0
