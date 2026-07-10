@@ -12,47 +12,6 @@
 {
   "type": "header",
   "name": "Header group",
-  "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "settings": {
-        "background": "#1a2a3a",
-        "text_color": "#f5e4e4",
-        "text": "Need Help?  Call 865-607-9472  - 9AM - 5PM EST",
-        "text_position": "center",
-        "link": "",
-        "show_newsletter": false,
-        "newsletter_button": "Subscribe & Save",
-        "newsletter_title": "Newsletter",
-        "newsletter_content": "<p>Subscribe to get notified about product launches, special offers and news<\/p>"
-      }
-    },
-    "header": {
-      "type": "header",
-      "settings": {
-        "enable_sticky_header": false,
-        "logo": "shopify:\/\/shop_images\/ChatGPT_Image_Jun_12_2026_09_58_20_AM.png",
-        "logo_max_width": 205,
-        "mobile_logo_max_width": 135,
-        "show_locale_selector": true,
-        "show_country_selector": false,
-        "navigation_menu": "main-menu",
-        "navigation_mobile_menu": "",
-        "desktop_navigation_layout": "condensed",
-        "desktop_navigation_open_trigger": "hover",
-        "show_navigation_social_media": true,
-        "navigation_phone_number": "Call us 865-607-9472",
-        "navigation_email": "admin@clinchriverfishingusa.com",
-        "show_condensed_search": true,
-        "show_search_filter": true,
-        "search_menu": "customer-account-main-menu",
-        "show_search_menu_title": true
-      }
-    }
-  },
-  "order": [
-    "announcement-bar",
-    "header"
-  ]
+
 }
 >>>>>>> 7209af618f24452d0867fc20d2742c66a9ec4239
