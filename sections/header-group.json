@@ -29,7 +29,7 @@
       "type": "header",
       "settings": {
         "enable_sticky_header": true,
-        "logo": "shopify://shop_images/clinch_logo.jpg",
+        "logo": "shopify://shop_images/logo_color.png",
         "logo_max_width": 180,
         "mobile_logo_max_width": 125,
         "show_locale_selector": true,
