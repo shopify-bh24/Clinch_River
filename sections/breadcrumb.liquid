@@ -1,0 +1,303 @@
+<style>
+  .breadcrumb_main { margin: 16px auto; }
+  .breadcrumb a { text-decoration: none; }
+  .breadcrumb__sep { display:inline-flex; margin: 0 6px; vertical-align: middle; }
+  .breadcrumb__current { opacity: .85; }
+  .breadcrumb-collection-title { margin: 10px 0 0; font-size: 24px; font-weight: 700; }
+
+  .breadcrumb-history {
+    margin-bottom: 4px;
+  }
+</style>
+
+{% if section.settings.show_breadcrumb %}
+  {%- unless template == 'index' -%}
+  <div class="page-width breadcrumb_main">
+
+    <nav class="breadcrumb row" aria-label="breadcrumbs">
+      <div class="col-12 breadcrumb_colmun">
+
+        {%- comment -%}
+          History-based breadcrumb (A -> B -> A)
+        {%- endcomment -%}
+        <div id="BreadcrumbHistory" class="breadcrumb-history"></div>
+
+        {%- comment -%}
+          Original fallback breadcrumb (shown if no usable history)
+        {%- endcomment -%}
+        <div id="BreadcrumbDefault">
+
+          <a href="{{ routes.root_url }}" title="{{ 'wbcustomlabel.wballtext.home' | t | default: 'Home' }}">
+            {{ 'wbcustomlabel.wballtext.home' | t | default: 'Home' }}
+          </a>
+
+          {%- comment -%} PRODUCT {%- endcomment -%}
+          {%- if template contains 'product' -%}
+            {%- assign current_collection = collection -%}
+            {%- if current_collection == nil and product.collections and product.collections.size > 0 -%}
+              {%- assign current_collection = product.collections.first -%}
+            {%- endif -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            {%- if current_collection -%}
+              {{ current_collection.title | link_to: current_collection.url }}
+              <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            {%- endif -%}
+            <span class="breadcrumb__current">{{ product.title }}</span>
+
+          {%- comment -%} COLLECTION {%- endcomment -%}
+          {%- elsif template contains 'collection' -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            {%- if current_tags -%}
+              {{ collection.title | link_to: collection.url }}
+              <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+              <span class="breadcrumb__current">{{ current_tags | join: " + " }}</span>
+            {%- else -%}
+              <span class="breadcrumb__current">{{ collection.title }}</span>
+            {%- endif -%}
+
+          {%- comment -%} PAGE {%- endcomment -%}
+          {%- elsif template contains 'page' -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            <span class="breadcrumb__current">{{ page.title }}</span>
+
+          {%- comment -%} BLOG LIST {%- endcomment -%}
+          {%- elsif template == 'blog' -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            {%- if current_tags -%}
+              {{ blog.title | link_to: blog.url }}
+              <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+              <span class="breadcrumb__current">{{ current_tags | join: " + " }}</span>
+            {%- else -%}
+              <span class="breadcrumb__current">{{ blog.title }}</span>
+            {%- endif -%}
+
+          {%- comment -%} ARTICLE {%- endcomment -%}
+          {%- elsif template == 'article' -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            {{ blog.title | link_to: blog.url }}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            <span class="breadcrumb__current">{{ article.title }}</span>
+
+          {%- comment -%} SEARCH {%- endcomment -%}
+          {%- elsif template contains 'search' -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            {%- assign search_label = 'general.search.search' | t | default: 'Search' -%}
+            <span class="breadcrumb__current">
+              {{ search_label }}{% if search.terms %}: “{{ search.terms }}”{% endif %}
+            </span>
+
+          {%- comment -%} CART {%- endcomment -%}
+          {%- elsif template contains 'cart' -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            <span class="breadcrumb__current">{{ 'templates.cart.cart' | t }}</span>
+
+          {%- comment -%} ACCOUNT / CUSTOMERS {%- endcomment -%}
+          {%- elsif template contains 'customers' -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            {%- assign acct = 'customer.account.title' | t | default: 'Account' -%}
+            <span class="breadcrumb__current">{{ acct }}</span>
+
+          {%- comment -%} ALL COLLECTIONS LIST {%- endcomment -%}
+          {%- elsif template contains 'list-collections' -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            <span class="breadcrumb__current">{{ 'collections.general.all_collections' | t | default: 'Collections' }}</span>
+
+          {%- comment -%} 404 {%- endcomment -%}
+          {%- elsif template contains '404' -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            <span class="breadcrumb__current">{{ 'general.404.title' | t | default: 'Page not found' }}</span>
+
+          {%- else -%}
+            <span class="breadcrumb__sep" aria-hidden="true">{% render 'icon-arrow-right' %}</span>
+            <span class="breadcrumb__current">{{ page_title }}</span>
+          {%- endif -%}
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  {%- endunless -%}
+{% endif %}
+
+<script>
+(function() {
+  var storageKey = 'breadcrumb_history_v1';
+  var maxItems = {{section.settings.breadcrumb_limit}};
+  var homeLabel = {{ 'wbcustomlabel.wballtext.home' | t | default: 'Home' | json }};
+
+  function normalizePath(path) {
+    if (!path) return '/';
+    if (path.length > 1 && path.charAt(path.length - 1) === '/') {
+      path = path.slice(0, -1);
+    }
+    return path;
+  }
+
+  function isRootOrLang(path) {
+    path = normalizePath(path);
+    if (path === '/') return true;               // /
+    return /^\/[a-zA-Z]{2}$/.test(path);         // /en, /it, /de, ...
+  }
+
+  var currentPath = window.location.pathname || '/';
+  var normalizedCurrentPath = normalizePath(currentPath);
+
+  var refPath = '';
+  var refSameOrigin = false;
+
+  try {
+    if (document.referrer) {
+      var refUrl = new URL(document.referrer);
+      if (refUrl.origin === window.location.origin) {
+        refSameOrigin = true;
+        refPath = refUrl.pathname || '';
+      }
+    }
+  } catch (e) {}
+
+  var normalizedRefPath = normalizePath(refPath);
+
+  var currentIsRootOrLang = isRootOrLang(normalizedCurrentPath);
+  var refIsRootOrLang = refSameOrigin && isRootOrLang(normalizedRefPath);
+
+  var shouldReset = false;
+
+  // Reset if we ARE on / or /en or /it, OR we CAME FROM / or /en or /it
+  if (currentIsRootOrLang || refIsRootOrLang) {
+    shouldReset = true;
+  }
+
+  if (shouldReset) {
+    try { localStorage.removeItem(storageKey); } catch (e) {}
+  }
+
+  // ----- BUILD PAGE LABEL (Liquid → string) -----
+  var label =
+  {% if template contains 'product' %}
+    {{ product.title | json }}
+  {% elsif template contains 'collection' and collection %}
+    {{ collection.title | json }}
+  {% elsif template contains 'page' and page %}
+    {{ page.title | json }}
+  {% elsif template == 'blog' and blog %}
+    {{ blog.title | json }}
+  {% elsif template == 'article' and article %}
+    {{ article.title | json }}
+  {% elsif template contains 'cart' %}
+    {{ 'templates.cart.cart' | t | default: 'Cart' | json }}
+  {% elsif template contains 'search' %}
+    {{ 'general.search.search' | t | default: 'Search' | json }}
+  {% elsif template contains 'customers' %}
+    {{ 'customer.account.title' | t | default: 'Account' | json }}
+  {% elsif template contains 'list-collections' %}
+    {{ 'collections.general.all_collections' | t | default: 'Collections' | json }}
+  {% elsif template contains '404' %}
+    {{ 'general.404.title' | t | default: 'Page not found' | json }}
+  {% else %}
+    {{ page_title | json }}
+  {% endif %};
+
+  var currentUrl = window.location.href;
+  if (!label || !currentUrl) return;
+
+  // ----- LOAD HISTORY -----
+  var history = [];
+  try {
+    var stored = localStorage.getItem(storageKey);
+    if (stored) {
+      history = JSON.parse(stored) || [];
+    }
+  } catch (e) {
+    history = [];
+  }
+
+  // If we just came from Home or /en /it (and history is fresh), seed "Home" as first item
+  if (refIsRootOrLang && !currentIsRootOrLang && history.length === 0) {
+    var homeUrl = window.location.origin + (normalizedRefPath === '/' ? '/' : normalizedRefPath + '/');
+    history.push({
+      label: homeLabel,
+      url: homeUrl
+    });
+  }
+
+  // ----- ADD CURRENT PAGE -----
+  var current = { label: label, url: currentUrl };
+
+  if (history.length === 0) {
+    history.push(current);
+  } else {
+    var last = history[history.length - 1];
+    if (!last || last.url !== current.url) {
+      history.push(current);
+      if (history.length > maxItems) {
+        history = history.slice(history.length - maxItems);
+      }
+    }
+  }
+
+  try {
+    localStorage.setItem(storageKey, JSON.stringify(history));
+  } catch (e) {}
+
+  // ----- RENDER BREADCRUMB -----
+  var historyContainer = document.getElementById('BreadcrumbHistory');
+  var defaultContainer = document.getElementById('BreadcrumbDefault');
+
+  if (!historyContainer) return;
+  if (history.length < 2) return; // needs at least 2 items to replace default
+
+  history.forEach(function(item, index) {
+    if (index > 0) {
+      var sep = document.createElement('span');
+      sep.className = 'breadcrumb__sep';
+      sep.setAttribute('aria-hidden', 'true');
+      sep.innerHTML = '&rsaquo;';
+      historyContainer.appendChild(sep);
+    }
+
+    if (index === history.length - 1) {
+      var span = document.createElement('span');
+      span.className = 'breadcrumb__current';
+      span.textContent = item.label;
+      historyContainer.appendChild(span);
+    } else {
+      var link = document.createElement('a');
+      link.href = item.url;
+      link.textContent = item.label;
+      historyContainer.appendChild(link);
+    }
+  });
+
+  if (defaultContainer) {
+    defaultContainer.style.display = 'none';
+  }
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Breadcrumb",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumb",
+      "default": true,
+      "label": "Show breadcrumb"
+    },
+    {
+      "type": "range",
+      "id": "breadcrumb_limit",
+      "label": "Breadcrumb history limit",
+      "default": 5,
+      "min": 3,
+      "max": 10,
+      "step": 1
+    }
+  ],
+  "presets": [
+    {
+      "name": "Breadcrumb"
+    }
+  ]
+}
+{% endschema %}

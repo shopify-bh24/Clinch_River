@@ -9,461 +9,1158 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "f4fc861e-a8e9-4733-8984-e73213d48588": {
+      "type": "slideshow_custom",
       "blocks": {
-        "image_Lr44px": {
+        "slide_HiqrFT": {
+          "type": "slide",
+          "settings": {
+            "enable_video_looping": false,
+            "auto_play_video": false,
+            "video_url": "",
+            "image": "shopify://shop_images/Arzt_mit_Praxisutensilien_rotes_Stethoskop_und_wei_er_Kittel.jpg",
+            "mobile_image": "shopify://shop_images/Arzt_mit_Praxisutensilien_rotes_Stethoskop_und_wei_er_Kittel.jpg",
+            "image_overlay_opacity": 0,
+            "text_caption": "Für Praxis, Pflege und den privaten Bedarf",
+            "outline_text": false,
+            "heading": "",
+            "heading_size": "h1",
+            "font_color": "",
+            "subheading": "<p><strong>Entdecken Sie hochwertige Medizinartikel</strong></p>",
+            "description": "Von der professionellen Versorgung\nbis zur sicheren Anwendung im Alltag",
+            "text_style": "body",
+            "button_label": "Jetzt entdecken",
+            "link": "shopify://collections/in-vitro-diagnostik-tests-diagnostik",
+            "link_window": false,
+            "view_all_style": "solid",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "color_scheme": "scheme-77b2cfd5-6085-45ba-893c-34c1568058e1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_FL8yYU": {
+          "type": "slide",
+          "settings": {
+            "enable_video_looping": false,
+            "auto_play_video": false,
+            "video_url": "",
+            "image": "shopify://shop_images/Banner_1.png",
+            "mobile_image": "shopify://shop_images/Design_ohne_Titel_1_e58b20f7-5304-49f5-a8ff-a64372ac3222.png",
+            "image_overlay_opacity": 0,
+            "text_caption": "Medizinische Simulationen auf höchstem Niveau",
+            "outline_text": false,
+            "heading": "",
+            "heading_size": "h2",
+            "font_color": "",
+            "subheading": "<p><strong>Realistische Modelle für Ausbildung Training & Lehre</strong></p>",
+            "description": "Erler Zimmer Simulationstools für Präzision & Praxisnähe.",
+            "text_style": "body",
+            "button_label": "Erler Zimmer entdecken",
+            "link": "shopify://collections/erler-zimmer",
+            "link_window": false,
+            "view_all_style": "solid",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "color_scheme": "scheme-77b2cfd5-6085-45ba-893c-34c1568058e1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_x6B4Nr": {
+          "type": "slide",
+          "settings": {
+            "enable_video_looping": false,
+            "auto_play_video": false,
+            "video_url": "",
+            "image": "shopify://shop_images/Banner_Desktop_4355fe8c-3047-4926-9a01-90fe6756a1a4.png",
+            "image_overlay_opacity": 0,
+            "text_caption": "",
+            "outline_text": false,
+            "heading": "",
+            "heading_size": "h2",
+            "font_color": "",
+            "subheading": "",
+            "description": "",
+            "text_style": "body",
+            "button_label": "Schülke & Mayr erkunden",
+            "link": "shopify://collections/schulke-mayr",
+            "link_window": false,
+            "view_all_style": "solid",
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_HiqrFT",
+        "slide_FL8yYU",
+        "slide_x6B4Nr"
+      ],
+      "settings": {
+        "slide_heading_font": "open_sans_n4",
+        "default_font": false,
+        "layout": "grid",
+        "slide_height": "small",
+        "show_menu": true,
+        "main_mega_menu": "top-10",
+        "slider_visual": "dots",
+        "pagenation_foreground": "#1d2e40",
+        "pagenation_background": "rgba(0,0,0,0)",
+        "pagenet_corner_radius": 10,
+        "slider_alignment": "center",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "accessibility_info": "Slideshow",
+        "color_scheme": "scheme-abe3bc68-5409-41dd-abcf-8f9ac474947a",
+        "show_srolling_bar": false,
+        "wb_marktext": "",
+        "mark_space": 30,
+        "mark_speed": 6,
+        "marq_diection": "right_left",
+        "seprater": "dots",
+        "text_padding_top": 0,
+        "text_padding_bottom": 12,
+        "show_text_below": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3f381c47-733a-4027-b7cc-15a524815a39": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16209783881785__3f381c47-733a-4027-b7cc-15a524815a39-image-1": {
           "type": "image",
+          "name": "Schneller Versand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/boat-sailing-on-the-ocen_398915e8-ff11-4054-bac1-0a74a09ed7a3.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
+            "custom_image": "shopify://shop_images/Schneller_Versand.png",
+            "icon1": "deal",
+            "title": "Schneller Versand",
+            "demotext": "oft innerhalb von 24 Stunden"
+          }
+        },
+        "template--16209783881785__3f381c47-733a-4027-b7cc-15a524815a39-image-2": {
+          "type": "image",
+          "name": "Zertifiziert",
+          "settings": {
+            "custom_image": "shopify://shop_images/Zertifikat.png",
+            "icon1": "return policy",
+            "title": "Zertifiziert",
+            "demotext": "beim Bundesministerium für Gesundheit"
+          }
+        },
+        "template--16209783881785__3f381c47-733a-4027-b7cc-15a524815a39-image-3": {
+          "type": "image",
+          "name": "Produkte",
+          "settings": {
+            "custom_image": "shopify://shop_images/Lagerboxen.png",
+            "icon1": "payment",
+            "title": "12.000+",
+            "demotext": "Produkte"
+          }
+        },
+        "template--16209783881785__3f381c47-733a-4027-b7cc-15a524815a39-image-4": {
+          "type": "image",
+          "name": "Gratisversand",
+          "settings": {
+            "custom_image": "shopify://shop_images/Freier_Versand.png",
+            "icon1": "none",
+            "title": "Gratisversand in DE",
+            "demotext": "ab nur 49€"
           }
         }
       },
       "block_order": [
-        "image_Lr44px"
+        "template--16209783881785__3f381c47-733a-4027-b7cc-15a524815a39-image-1",
+        "template--16209783881785__3f381c47-733a-4027-b7cc-15a524815a39-image-2",
+        "template--16209783881785__3f381c47-733a-4027-b7cc-15a524815a39-image-3",
+        "template--16209783881785__3f381c47-733a-4027-b7cc-15a524815a39-image-4"
       ],
-      "settings": {
-        "edge_to_edge": true,
-        "section_size": "preserve_ratio",
-        "carousel_effect": "slide",
-        "autoplay": true,
-        "cycle_speed": 5
-      }
-    },
-    "offers": {
-      "type": "offers",
-      "blocks": {
-        "offer-1": {
-          "type": "offer",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/exclusive-offers.png",
-            "title": "Exclusive offers",
-            "content": "<p>Enjoy great discounts on a wide range of marine electronics, outdoor gear and fishing and hunting accessories<\/p>"
-          }
-        },
-        "offer-2": {
-          "type": "offer",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/free-shipping.png",
-            "title": "Same Day Free shipping for all orders over $150 placed before 4PM GMT",
-            "content": "<p>We got you covered ! We deliver your goods using USPS, UPS, Fedex, DHL and other carriers. Full tracking provided. Express shipping available.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "offer-1",
-        "offer-2"
+      "custom_css": [
+        "@media screen and (max-width: 767px);"
       ],
-      "name": "Offers",
+      "name": "USP",
       "settings": {
-        "items_per_row": 1,
-        "stack_mobile": true
+        "title": "",
+        "heading_size": "h1",
+        "head_align": "center",
+        "heading_color_scheme": "background-1",
+        "head_space": false,
+        "iconwidth": 65,
+        "column_alignment": "center",
+        "flex_direction": "column",
+        "text_size": "medium",
+        "space_text": 2,
+        "color_scheme": "background-1",
+        "show_seprator": false,
+        "swipe_mobile": true,
+        "margin_top": 24,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "collection-list": {
-      "type": "collection-list",
+    "ss_circle_menu_2_bHr33m": {
+      "type": "ss-circle-menu-2",
       "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "automotive-rv",
-            "link": "shopify:\/\/collections\/automotive-rv"
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "cartography-1",
-            "link": "shopify:\/\/collections\/cartography-1"
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "boating-and-fishing",
-            "link": ""
-          }
-        },
-        "collection-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "lighting",
-            "link": ""
-          }
-        },
-        "collection-6": {
-          "type": "collection",
-          "settings": {
-            "collection": "camping-1",
-            "image": "shopify:\/\/shop_images\/dspic_77b3b670-801b-46e7-b65b-d0adcf8c3604.jpg",
-            "link": "shopify:\/\/collections\/camping-1"
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3",
-        "collection-5",
-        "collection-6"
-      ],
-      "settings": {
-        "title": "Our collections",
-        "link_title": "View all",
-        "link": "shopify:\/\/collections",
-        "round_images": true,
-        "show_collection_title": true
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "boat-outfitting",
-        "title": "Featured collection",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": true,
-        "link_title": "",
-        "link_url": ""
-      }
-    },
-    "mosaic": {
-      "type": "mosaic",
-      "blocks": {
-        "item-1": {
+        "item_d6PdAA": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/garmin-electronics.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#ff2e1f",
-            "text_color": "#1d1e20",
-            "title": "Humminbird Accessories",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
+            "image": "shopify://shop_images/M_lnlycke_Logo.png",
+            "title": "Mölnycke",
+            "tag": "",
+            "url": "shopify://collections/molnlycke"
           }
         },
-        "item-2": {
+        "item_yKLy6g": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/survival-tools.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#383639",
-            "text_color": "#ffffff",
-            "title": "Survival",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
+            "image": "shopify://shop_images/Design_ohne_Titel_52ee44be-c6d4-458c-9dbe-c333433ec63d.png",
+            "title": "Dr. Schumacher GmbH",
+            "tag": "",
+            "url": "shopify://collections/dr-schumacher-gmbh"
           }
         },
-        "item-3": {
+        "item_zKiYXb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/minn-kota-trolling-motor.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#000000",
-            "title": "Trolling Motors",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
+            "image": "shopify://shop_images/Design_ohne_Titel_1_957d03a1-06b0-438a-ba01-c605987dd96f.png",
+            "title": "BSN",
+            "tag": "",
+            "url": "shopify://collections/bsn"
           }
         },
-        "item-4": {
+        "item_MaHUa8": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/garmin-fishfinder.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#000000",
-            "title": "Garmin Accessories",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
+            "image": "shopify://shop_images/Hartmann.png",
+            "title": "Hartmann",
+            "tag": "",
+            "url": "shopify://collections/hartmann"
           }
         },
-        "item-5": {
+        "item_VG3dzi": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/camping-tent.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#383639",
-            "text_color": "#ffffff",
-            "title": "Camping Accessories",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "Learn more",
-            "link": ""
+            "image": "shopify://shop_images/erler_zimmer_anatomische_modelle.png",
+            "title": "Erler-Zimmer ",
+            "tag": "",
+            "url": "shopify://collections/erler-zimmer"
+          }
+        },
+        "item_EqwLDE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Schuelke.png",
+            "title": "Schülke",
+            "tag": "",
+            "url": "shopify://collections/schulke-mayr"
+          }
+        },
+        "item_NiybVx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Essity_Logo.png",
+            "title": "Essity",
+            "tag": "",
+            "url": "shopify://collections/essity"
+          }
+        },
+        "item_kTmefk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/nobamed-verbandsmaterial.png",
+            "title": "Nobamed",
+            "tag": "",
+            "url": "shopify://collections/nobamed"
+          }
+        },
+        "item_zTUFqH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Logos_Section.png",
+            "title": "Wundmed",
+            "tag": "",
+            "url": "shopify://collections/wundmed"
+          }
+        },
+        "item_YXzhDi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/B._Braun.png",
+            "title": "B. Braun",
+            "tag": "",
+            "url": "shopify://collections/b-braun"
+          }
+        },
+        "item_BPdDWB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3M.png",
+            "title": "3M",
+            "tag": "",
+            "url": "shopify://collections/3m"
+          }
+        },
+        "item_XJbVxe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Logos_Section_1.png",
+            "title": "Smith & Nephew",
+            "tag": "",
+            "url": "shopify://collections/smith-nephew"
+          }
+        },
+        "item_q6BjaT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_23.png",
+            "title": "Burnshield",
+            "tag": "",
+            "url": "shopify://collections/burnshield"
+          }
+        },
+        "item_Vn6XfM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Cederroth.png",
+            "title": "Cederroth",
+            "tag": "",
+            "url": "shopify://collections/cederroth"
+          }
+        },
+        "item_z84V6q": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Logos_Section_2_57c3c2f0-3bce-4fc3-bffe-4c816e5c55cc.png",
+            "title": "DocMed",
+            "tag": "",
+            "url": "shopify://collections/docmed-gmbh"
+          }
+        },
+        "item_NhjjqX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_ohne_Titel_2_bdda1a37-653b-446b-822c-3f77ba68f5f3.png",
+            "title": "Hansaplast",
+            "tag": "",
+            "url": "shopify://collections/hansaplast"
+          }
+        },
+        "item_8zz8UL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/MaiMed.png",
+            "title": "MaiMed",
+            "tag": "",
+            "url": "shopify://collections/maimed"
+          }
+        },
+        "item_yNAhmQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/AMBU.png",
+            "title": "AMBU",
+            "tag": "",
+            "url": "shopify://collections/ambu"
+          }
+        },
+        "item_CeKptW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_ohne_Titel_e06dc6fd-65e9-46d4-bce7-bbb1d783bc16.png",
+            "title": "KreuterhoF",
+            "tag": "",
+            "url": "shopify://collections/kreuterhof"
+          }
+        },
+        "item_Q8MEGX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design-ohne-Titel-2022-07-02T123221.623.png",
+            "title": "Burmeier",
+            "tag": "",
+            "url": "shopify://collections/burmeier"
+          }
+        },
+        "item_NQ7Wr9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_ohne_Titel_a9efb0b4-fa9b-423c-af08-2b739d36572f.png",
+            "title": "Beurer",
+            "tag": "",
+            "url": "shopify://collections/beurer"
+          }
+        },
+        "item_R4hWJz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/images.png",
+            "title": "Johnson & Johnson",
+            "tag": "",
+            "url": "shopify://collections/johnson-johnson"
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "item-4",
-        "item-5"
+        "item_d6PdAA",
+        "item_yKLy6g",
+        "item_zKiYXb",
+        "item_MaHUa8",
+        "item_VG3dzi",
+        "item_EqwLDE",
+        "item_NiybVx",
+        "item_kTmefk",
+        "item_zTUFqH",
+        "item_YXzhDi",
+        "item_BPdDWB",
+        "item_XJbVxe",
+        "item_q6BjaT",
+        "item_Vn6XfM",
+        "item_z84V6q",
+        "item_NhjjqX",
+        "item_8zz8UL",
+        "item_yNAhmQ",
+        "item_CeKptW",
+        "item_Q8MEGX",
+        "item_NQ7Wr9",
+        "item_R4hWJz"
       ],
-      "name": "Mosaic",
+      "disabled": true,
+      "custom_css": [],
+      "name": "Brand Circles ",
       "settings": {
-        "section_size": "medium"
+        "slider_view": 8,
+        "slider_view_mobile": 4,
+        "slider_gap": 20,
+        "slider_gap_mobile": 12,
+        "item_border_thickness": 1,
+        "tag_custom": false,
+        "tag_font": "poppins_n4",
+        "tag_size": 6,
+        "tag_size_mobile": 0,
+        "tag_height": 150,
+        "tag_padding_vertical": 2,
+        "tag_padding_vertical_mobile": 4,
+        "tag_padding_horizontal": 12,
+        "tag_padding_horizontal_mobile": 8,
+        "tag_border_radius": 4,
+        "tag_bottom": false,
+        "title_custom": false,
+        "title_font": "poppins_n4",
+        "title_size": 0,
+        "title_size_mobile": 0,
+        "title_height": 140,
+        "title_spacing": 8,
+        "title_spacing_mobile": 4,
+        "title_color": "#1d2e40",
+        "tag_color": "rgba(0,0,0,0)",
+        "item_border_color": "#1d2e40",
+        "tag_bg_color": "rgba(0,0,0,0)",
+        "tag_bg_gradient": "",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "border_color": "#1d2e40",
+        "full_width": true,
+        "content_width": 0,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true,
+        "margin_top": 40,
+        "margin_bottom": 40,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 2
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "name": "Rich text",
-      "settings": {
-        "text_width": "narrow",
-        "title": "About us",
-        "content": "<p>Founded in Tennessee and inspired by the waters of the Clinch River, our mission is simple: to provide anglers, boaters, and outdoor enthusiasts with reliable equipment, fair pricing, and honest service.<\/p><p>We proudly offer a curated selection of rods, reels, tackle, marine electronics, and boating accessories from brands we know and trust. Every product we list is vetted for quality, warranty support, and authenticity — no third-party marketplaces or unverified dropship items.<\/p><p>Customer satisfaction is at the heart of our business. Our small team of avid fishermen personally oversees each order with care, ensuring accurate product descriptions, clear shipping timelines, and responsive communication.<\/p><p><strong>Need help?<\/strong> Contact us anytime at <a>admin@clinchriverfishingusa.com <\/a>or call <strong>865-607-9472<\/strong>.<\/p>",
-        "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
-      }
-    },
-    "logo-list": {
-      "type": "logo-list",
+    "logo_bar_c7Hgqz": {
+      "type": "logo-bar",
       "blocks": {
-        "logo-2": {
-          "type": "logo",
+        "logo_image_XPDBBh": {
+          "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/minnkotalogo2_7c2f03f5-fe36-4dd7-a8b8-8740b6235b98.jpg",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/M_lnlycke_Logo.png",
+            "link": "shopify://collections/molnlycke",
+            "logo_title": ""
           }
         },
-        "logo-3": {
-          "type": "logo",
+        "logo_image_qaDF6g": {
+          "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/berkleylogo.jpg",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/Design_ohne_Titel_52ee44be-c6d4-458c-9dbe-c333433ec63d.png",
+            "link": "shopify://collections/dr-schumacher-gmbh",
+            "logo_title": ""
           }
         },
-        "logo-4": {
-          "type": "logo",
+        "logo_image_iW8WJG": {
+          "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rapala-Sweepstakes_rev.png",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/Design_ohne_Titel_1_957d03a1-06b0-438a-ba01-c605987dd96f.png",
+            "link": "shopify://collections/bsn",
+            "logo_title": ""
           }
         },
-        "logo-5": {
-          "type": "logo",
+        "logo_image_6gwQBa": {
+          "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/humminbirdlogo2.jpg",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/Hartmann.png",
+            "link": "shopify://collections/hartmann",
+            "logo_title": ""
           }
         },
-        "logo-6": {
-          "type": "logo",
+        "logo_image_KGxt8L": {
+          "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coleman.jpg",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/erler_zimmer_anatomische_modelle.png",
+            "link": "shopify://collections/erler-zimmer",
+            "logo_title": ""
+          }
+        },
+        "logo_image_7UDiWc": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Schuelke.png",
+            "link": "shopify://collections/schulke-mayr",
+            "logo_title": ""
+          }
+        },
+        "logo_image_MnUrUA": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Essity.png",
+            "link": "shopify://collections/essity",
+            "logo_title": ""
+          }
+        },
+        "logo_image_hX3ywt": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/nobamed-verbandsmaterial.png",
+            "link": "shopify://collections/nobamed",
+            "logo_title": ""
+          }
+        },
+        "logo_image_4iADWW": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Logos_Section.png",
+            "link": "shopify://collections/wundmed",
+            "logo_title": ""
+          }
+        },
+        "logo_image_QKRCtr": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/B._Braun.png",
+            "link": "shopify://collections/b-braun",
+            "logo_title": ""
+          }
+        },
+        "logo_image_AM3bC8": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/3M.png",
+            "link": "shopify://collections/3m",
+            "logo_title": ""
+          }
+        },
+        "logo_image_abTpKC": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Logos_Section_1.png",
+            "link": "shopify://collections/smith-nephew",
+            "logo_title": ""
+          }
+        },
+        "logo_image_KJPPhh": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_23.png",
+            "link": "shopify://collections/burnshield",
+            "logo_title": ""
+          }
+        },
+        "logo_image_bxQzP9": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Cederroth.png",
+            "link": "shopify://collections/cederroth",
+            "logo_title": ""
+          }
+        },
+        "logo_image_QWVbnV": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Logos_Section_2_57c3c2f0-3bce-4fc3-bffe-4c816e5c55cc.png",
+            "link": "shopify://collections/docmed-gmbh",
+            "logo_title": ""
+          }
+        },
+        "logo_image_CJQYtE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Hansaplast.png",
+            "link": "shopify://collections/hansaplast",
+            "logo_title": ""
+          }
+        },
+        "logo_image_JaGRcj": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/client_logo-roche.png",
+            "link": "shopify://collections/roche",
+            "logo_title": ""
+          }
+        },
+        "logo_image_JarCpm": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/AMBU.png",
+            "link": "shopify://collections/ambu",
+            "logo_title": ""
+          }
+        },
+        "logo_image_erbN8M": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Design_ohne_Titel_e06dc6fd-65e9-46d4-bce7-bbb1d783bc16.png",
+            "link": "shopify://collections/kreuterhof",
+            "logo_title": ""
+          }
+        },
+        "logo_image_RAqm8c": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Design-ohne-Titel-2022-07-02T123221.623.png",
+            "link": "shopify://collections/burmeier",
+            "logo_title": ""
+          }
+        },
+        "logo_image_J8TmQD": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/Design_ohne_Titel_a9efb0b4-fa9b-423c-af08-2b739d36572f.png",
+            "link": "shopify://collections/beurer",
+            "logo_title": ""
+          }
+        },
+        "logo_image_r6RffC": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/images.png",
+            "link": "shopify://collections/johnson-johnson",
+            "logo_title": ""
           }
         }
       },
       "block_order": [
-        "logo-2",
-        "logo-3",
-        "logo-4",
-        "logo-5",
-        "logo-6"
+        "logo_image_XPDBBh",
+        "logo_image_qaDF6g",
+        "logo_image_iW8WJG",
+        "logo_image_6gwQBa",
+        "logo_image_KGxt8L",
+        "logo_image_7UDiWc",
+        "logo_image_MnUrUA",
+        "logo_image_hX3ywt",
+        "logo_image_4iADWW",
+        "logo_image_QKRCtr",
+        "logo_image_AM3bC8",
+        "logo_image_abTpKC",
+        "logo_image_KJPPhh",
+        "logo_image_bxQzP9",
+        "logo_image_QWVbnV",
+        "logo_image_CJQYtE",
+        "logo_image_JaGRcj",
+        "logo_image_JarCpm",
+        "logo_image_erbN8M",
+        "logo_image_RAqm8c",
+        "logo_image_J8TmQD",
+        "logo_image_r6RffC"
       ],
-      "name": "Logo list",
+      "name": "t:sections.logo_bar.presets.name",
       "settings": {
-        "title": "Brands we distribute",
-        "link_title": "",
-        "link": ""
+        "full_width": true,
+        "heading": "",
+        "heading_size": "h1",
+        "head_align": "left",
+        "heading_color_scheme": "",
+        "head_space": true,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "columns_desktop": 8,
+        "enable_desktop_slider": true,
+        "show_title": false,
+        "color_scheme": "",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
-    "collection-with-image": {
-      "type": "collection-with-image",
-      "name": "Collection with image",
+    "featured_collection_new_pzAqae": {
+      "type": "featured-collection-new",
+      "name": "Bestseller",
       "settings": {
-        "collection": "minn-kota-50-off",
-        "products_count": 12,
-        "show_quick_buy": true,
-        "background": "#2d2d2d",
-        "text_color": "#ffffff",
-        "title": "Trolling Motors",
-        "content": "Here is our selection of trolling motors, picked by our experts.",
-        "button_background": "#ffffff",
-        "button_text_color": "#2d2d2d",
-        "button_text": "Buy Now & Get Ready For Spring",
-        "button_link": "shopify:\/\/collections\/minn-kota-50-off"
+        "color_scheme": "background-2",
+        "collection": "bestseller",
+        "title": "<strong>Gut. Besser. Bestseller.</strong>",
+        "heading_size": "h1",
+        "head_align": "left",
+        "heading_color_scheme": "",
+        "head_space": false,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "products_to_show": 25,
+        "columns_desktop": 5,
+        "show_row_on_desktop": 1,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "view_button_pos": "top",
+        "enable_desktop_slider": true,
+        "arrow_position": "top",
+        "card_style": "card",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_quantity": false,
+        "show_vendor": true,
+        "show_sku": true,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "quicklook_style": "link",
+        "show_count_timer": false,
+        "color_swatchhover": false,
+        "enable_addtocart": true,
+        "show_variants": false,
+        "show_variant_label": false,
+        "picker_type": "button",
+        "show_colorswatch": true,
+        "cardstock_bar": false,
+        "stock_inventory": false,
+        "max_stock": 150,
+        "limited_stock_cut_off": 10,
+        "limited_stock_message": "Only {stock_number} units left",
+        "instock_message": "{stock_number} in stock",
+        "continue_selling_message": "Re-stocking soon",
+        "limited_stock_color": "#ff0000",
+        "in_stock_color": "#008a00",
+        "continue_selling_color": "#ff0000",
+        "banner_position": "left",
+        "box_align": "top",
+        "text_alignment": "center",
+        "show_text_box": false,
+        "imgcolor_scheme": "",
+        "show_banner_timer": false,
+        "wb_bannerdate": "",
+        "text_caption": "Image text",
+        "outline_text": false,
+        "heading": "Heading",
+        "bnrheading_size": "h1",
+        "sub_heading": "Sub Heading",
+        "button_label": "Button label",
+        "button_link": "",
+        "link_window": true,
+        "button_style_secondary": "link",
+        "card_color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 36
       }
     },
-    "featured-collection-1": {
-      "type": "featured-collection",
-      "name": "Featured collection",
+    "custom_featured_coll_sec_hqKMU6": {
+      "type": "custom-featured-coll-sec",
+      "name": "Push Produkte ",
       "settings": {
-        "collection": "communication",
-        "title": "Top-rated products",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "View all",
-        "link_url": "shopify:\/\/collections"
+        "cus-bg-color": "#f5f5f7",
+        "collection": "push-products",
+        "heading": ""
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "title": "Let's keep in touch",
-        "content": "<p>Subscribe to our weekly newsletter and receive exclusive offers on products you love!<\/p>",
-        "background": "rgba(0,0,0,0)",
-        "text": "#677279"
-      }
-    },
-    "quick-links": {
-      "type": "quick-links",
+    "cus_new_collectin_list_sec_ftM88k": {
+      "type": "cus-new-collectin-list-sec",
       "blocks": {
-        "link-1": {
-          "type": "link",
+        "collection_block_HtdNjC": {
+          "type": "collection_block",
+          "name": "Einsatzbereiche",
           "settings": {
-            "title": "Motors",
-            "link": "shopify:\/\/collections\/all"
+            "image": "shopify://shop_images/Design_ohne_Titel_5_10c01498-d1d7-4dde-b116-241fc7e346d4.png",
+            "title": "Pfege",
+            "item1_text": "Alltagshilfen",
+            "item1_link": "shopify://collections/alltagshilfen",
+            "item2_text": "Betten",
+            "item2_link": "shopify://collections/betten",
+            "item3_text": "Pflegemöbel",
+            "item3_link": "shopify://collections/pflegemobel",
+            "item4_text": "Badezimmer",
+            "item4_link": "shopify://collections/bad",
+            "item5_text": "Rollstühle",
+            "item5_link": "shopify://collections/rollstuhle",
+            "main_link_text": "",
+            "main_link": "#"
           }
         },
-        "link-2": {
-          "type": "link",
+        "collection_block_FicKPW": {
+          "type": "collection_block",
+          "name": "weitere Einsatzbereiche",
           "settings": {
-            "title": "Speakers",
-            "link": ""
+            "image": "shopify://shop_images/Design_ohne_Titel.png",
+            "title": "weitere Einsatzbereiche",
+            "item1_text": "Physiotherapie",
+            "item1_link": "shopify://collections/physiotherapie",
+            "item2_text": "Wellness & Spa",
+            "item2_link": "shopify://collections/wellness-spa",
+            "item3_text": "Naturheilmittel",
+            "item3_link": "shopify://collections/naturheilmittel",
+            "item4_text": "Kosmetik",
+            "item4_link": "shopify://collections/kosmetik",
+            "item5_text": "Schmerz- & Sporttherapie",
+            "item5_link": "shopify://collections/schmerz-und-sporttherapie",
+            "main_link_text": "",
+            "main_link": "#"
           }
         },
-        "link-3": {
-          "type": "link",
+        "collection_block_bLPUzq": {
+          "type": "collection_block",
+          "name": "In-vitro-Diagnostik",
           "settings": {
-            "title": "Fish Finders",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/Design_ohne_Titel_3_be629107-9563-4bfd-b11a-33af0ab5b4d5.png",
+            "title": "In-vitro-Diagnostik",
+            "item1_text": "Drogentests",
+            "item1_link": "shopify://collections/drgenteste",
+            "item2_text": "Alkoholtest",
+            "item2_link": "shopify://collections/alkoholtests",
+            "item3_text": "Geschlechtskrankheiten",
+            "item3_link": "shopify://collections/geschlechtskrankheiten",
+            "item4_text": "COVID-19 Tests",
+            "item4_link": "shopify://collections/covid-19",
+            "item5_text": "Schwangerschaftstests",
+            "item5_link": "shopify://collections/schwangerschaft",
+            "main_link_text": "",
+            "main_link": ""
           }
         },
-        "link-4": {
-          "type": "link",
+        "collection_block_dJT3eg": {
+          "type": "collection_block",
           "settings": {
-            "title": "Camping",
-            "link": "shopify:\/\/collections"
-          }
-        },
-        "link-5": {
-          "type": "link",
-          "settings": {
-            "title": "Fishing",
-            "link": "shopify:\/\/collections"
-          }
-        },
-        "link-6": {
-          "type": "link",
-          "settings": {
-            "title": "Accessories",
-            "link": "shopify:\/\/collections"
+            "image": "shopify://shop_images/Design_ohne_Titel_4_bc0d0f07-43c7-4a7e-857b-1062c484b2fa.png",
+            "title": "Hygiene",
+            "item1_text": "Handdesinfektion",
+            "item1_link": "shopify://collections/handdesinfektion",
+            "item2_text": "Flächendesinfektion",
+            "item2_link": "shopify://collections/flachendesinfektion",
+            "item3_text": "Desinfektionsreiniger",
+            "item3_link": "shopify://collections/desinfektionsreiniger",
+            "item4_text": "Desinfektionstücher",
+            "item4_link": "shopify://collections/desinfektionstucher",
+            "item5_text": "Laborreiniger",
+            "item5_link": "shopify://collections/laborreinigung",
+            "main_link_text": "",
+            "main_link": ""
           }
         }
       },
       "block_order": [
-        "link-1",
-        "link-2",
-        "link-3",
-        "link-4",
-        "link-5",
-        "link-6"
+        "collection_block_HtdNjC",
+        "collection_block_FicKPW",
+        "collection_block_bLPUzq",
+        "collection_block_dJT3eg"
       ],
-      "name": "Quick links",
+      "name": "Kollektion Übersicht ",
       "settings": {
-        "title": "Quick links",
-        "expand_items": true,
-        "show_desktop": true,
-        "link_title": "",
-        "link": ""
+        "cus-bg-color": "#ffffff",
+        "heading": "",
+        "subheading": ""
       }
     },
-    "1758649406169a5352": {
+    "collapsible_content_7yExeM": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_TtCwqK": {
+          "type": "collapsible_row",
+          "settings": {
+            "default_open": true,
+            "heading": "Wie kann ich eine Bestellung aufgeben?",
+            "icon": "none",
+            "custom_image": "shopify://shop_images/cart-shopping-solid-full_2.svg",
+            "row_content": "<p>Sie können Ihre Bestellung bequem über unseren Online-Shop aufgeben, indem Sie die gewünschten Produkte in den Warenkorb legen und dem Bestellprozess folgen.<br/><br/>Alternativ haben Sie die Möglichkeit, <strong>ein individuelles Angebot anzufordern</strong> oder Ihre Bestellung <strong>telefonisch oder per E-Mail</strong> bei unserem Team aufzugeben. Wir beraten Sie dabei gerne persönlich und unterstützen Sie bei der Produktauswahl sowie der Abwicklung.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nNB3gV": {
+          "type": "collapsible_row",
+          "settings": {
+            "default_open": true,
+            "heading": "Kann ich ein Angebot anfordern & per Rechnung bestellen?",
+            "icon": "none",
+            "custom_image": "shopify://shop_images/receipt-solid-full.svg",
+            "row_content": "<p>Ja, wir bieten unsere Artikel sowohl für <strong>B2B- als auch für B2C-Kunden</strong> an.<br/><br/>Gerne erstellen wir Ihnen ein individuelles Angebot. Nach Bestätigung des Angebots ist eine Bestellung per <strong>Rechnung (Vorkasse)</strong> möglich.<br/><br/>Bitte kontaktieren Sie uns hierzu über unser Kontaktformular oder per E-Mail und teilen Sie uns die gewünschten Artikel, Mengen sowie Ihre Rechnungs- und Lieferadresse mit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pMzWYg": {
+          "type": "collapsible_row",
+          "settings": {
+            "default_open": false,
+            "heading": "Wie lange dauert der Versand?",
+            "icon": "none",
+            "custom_image": "shopify://shop_images/dolly-solid-full.svg",
+            "row_content": "<p>Die Lieferzeit variiert je nach Produktverfügbarkeit. In der Regel erfolgt der Versand innerhalb von <strong>1-3 Werktagen</strong>. Genauere Informationen finden Sie in der Produktbeschreibung oder im Checkout.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_b9jDni": {
+          "type": "collapsible_row",
+          "settings": {
+            "default_open": false,
+            "heading": "Wie hoch sind die Versandkosten?",
+            "icon": "none",
+            "custom_image": "shopify://shop_images/truck-regular-full_1.svg",
+            "row_content": "<p>Alle Informationen zu <strong>Versandkosten und Lieferung</strong> finden Sie unter folgendem Link: <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\"><em><strong>Bestellung & Lieferung </strong></em></a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aKQRid": {
+          "type": "collapsible_row",
+          "settings": {
+            "default_open": false,
+            "heading": "Wie lange habe ich Zeit, um meine Bestellung zurückzusenden?",
+            "icon": "none",
+            "custom_image": "shopify://shop_images/rotate-left-solid-full.svg",
+            "row_content": "<p><a href=\"/policies/refund-policy\" title=\"Refund Policy\"><em>Rückgabepolitik</em></a> haben ein 30-tägiges Rückgaberecht. Innerhalb dieses Zeitraums können Sie Ihre Bestellung ohne Angabe von Gründen an uns zurücksenden. Weitere Informationen zum Rücksendeprozess finden Sie in unserer <a href=\"/policies/refund-policy\" title=\"Refund Policy\"><em><strong>Rückgabepolitik</strong></em></a><em><strong>.</strong></em></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_TtCwqK",
+        "collapsible_row_nNB3gV",
+        "collapsible_row_pMzWYg",
+        "collapsible_row_b9jDni",
+        "collapsible_row_aKQRid"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "heading": "FAQ",
+        "heading_size": "h0",
+        "head_align": "left",
+        "heading_color_scheme": "background-1",
+        "head_space": false,
+        "description": "<p>Häufig gestellte Fragen</p>",
+        "description_style": "body",
+        "layout": "row",
+        "color_scheme": "",
+        "secondary_background": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1769257728e37c44bc": {
       "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "17586587554d0dc0f5": {
-      "type": "apps",
       "blocks": {
-        "judge_me_reviews_medals_EDqnTe": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "google_reviews_carousel_widget_block_NV3qfY": {
+          "type": "shopify://apps/google-reviews/blocks/carousel-widget-block/8b378e9e-c56d-47ce-a754-feca5e0caf59",
+          "settings": {
+            "contentIndex": "1",
+            "variant": "carousel",
+            "headerType_rotator": "top",
+            "headerType_carousel": "top",
+            "customContentIndex": 31,
+            "font": "default",
+            "themeId": "light",
+            "ratingType": "stars",
+            "emojiType": "0",
+            "cardColor": "#f3f6f9",
+            "starsColor": "#fbb000",
+            "textColor": "#404040",
+            "transparent": 1,
+            "solidShadow": false,
+            "hasShadow": false,
+            "autoscroll": true,
+            "fluidScrolling": false,
+            "delay": 5,
+            "reviewPhotosType_carousel": "small",
+            "reviewPhotosType_rotator": "small",
+            "writeReview": true,
+            "fixedReviewsHeight": false
+          }
         }
       },
       "block_order": [
-        "judge_me_reviews_medals_EDqnTe"
+        "google_reviews_carousel_widget_block_NV3qfY"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": true,
+        "padding_top": 16,
+        "padding_bottom": 0
       }
     },
-    "1759950549972516f9": {
-      "type": "apps",
+    "text_columns_tjFfPx": {
+      "type": "text-columns",
+      "blocks": {
+        "column_thdVYR": {
+          "type": "column",
+          "settings": {
+            "heading": "Im Dienste Ihrer Gesundheit – Unser Versprechen",
+            "text": "<p>Seit unserer Gründung leitet uns ein klarer Leitsatz: <strong>Im Dienste Ihrer Gesundheit</strong>. Dieser Slogan ist für uns mehr als nur eine Floskel auf dem Papier. Er ist das Fundament unserer täglichen Arbeit. Ob wir neue Produkte auswählen, unseren Service optimieren oder Sie individuell beraten – jede Entscheidung treffen wir mit dem Ziel, die Gesundheitsversorgung ein Stück besser, sicherer und einfacher zu machen. Wir halten Ihnen den Rücken frei, damit Sie sich auf das Wesentliche konzentrieren können.</p>"
+          }
+        },
+        "column_mbfbdw": {
+          "type": "column",
+          "settings": {
+            "heading": "Geprüfte Sicherheit: Zertifiziert vom Bundesministerium für Gesundheit",
+            "text": "<p>In einer Branche, in der es um das höchste Gut – die Gesundheit – geht, ist Vertrauen die wichtigste Währung. Deshalb überlassen wir nichts dem Zufall. <strong>DocMed ist offiziell beim Bundesministerium für Gesundheit zertifiziert.</strong> Diese Auszeichnung ist für Sie die Garantie, dass unsere Prozesse, unsere Lagerung und unsere Produkte den strengsten gesetzlichen Anforderungen entsprechen. Wir verkaufen nicht einfach nur Waren; wir liefern zertifizierte Sicherheit, auf die Sie sich verlassen können.</p>"
+          }
+        },
+        "column_3eUbwX": {
+          "type": "column",
+          "settings": {
+            "heading": "Grenzenlose Gesundheit: Weltweit für B2B & Privatkunden",
+            "text": "<p>Unser Anspruch macht an Grenzen nicht halt. <strong>DocMed agiert international</strong> und beliefert Kunden weit über die Landesgrenzen hinaus. Dabei schlagen wir die Brücke zwischen zwei Welten: Wir sind der verlässliche Partner für den <strong>B2B-Sektor</strong>, der Kliniken und Arztpraxen mit Großmengen versorgt, und gleichzeitig die erste Anlaufstelle für <strong>B2C-Privatkunden</strong>, die Wert auf geprüfte Qualität für die eigene Gesundheit legen. Egal ob Großbestellung oder Einzelstück – unser Slogan „Im Dienste Ihrer Gesundheit“ gilt für jeden Kunden gleichermaßen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_thdVYR",
+        "column_mbfbdw",
+        "column_3eUbwX"
+      ],
+      "name": "DocMed Text Columns",
       "settings": {
-        "include_margins": true
+        "columns": "3",
+        "text_align": "justify",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
-    "176132125025608bbb": {
-      "type": "apps",
+    "contact_form_MtCmVQ": {
+      "type": "contact-form",
+      "blocks": {
+        "text_z4NE9n": {
+          "type": "text",
+          "settings": {
+            "field_label": "",
+            "label_placeholder": "Name",
+            "required_field": false
+          }
+        },
+        "email_BBpV9b": {
+          "type": "email",
+          "settings": {
+            "field_label": "",
+            "label_placeholder": "Email",
+            "required_field": true
+          }
+        },
+        "phone_crHPYU": {
+          "type": "phone",
+          "settings": {
+            "field_label": "",
+            "label_placeholder": "Telefon",
+            "required_field": true
+          }
+        },
+        "message_YVhe7B": {
+          "type": "message",
+          "settings": {
+            "field_label": "",
+            "label_placeholder": "Ihre Nachricht...",
+            "required_field": false
+          }
+        }
+      },
+      "block_order": [
+        "text_z4NE9n",
+        "email_BBpV9b",
+        "phone_crHPYU",
+        "message_YVhe7B"
+      ],
       "settings": {
-        "include_margins": true
+        "title": "Kontaktieren Sie uns!",
+        "heading_size": "h1",
+        "head_align": "left",
+        "heading_color_scheme": "scheme-77b2cfd5-6085-45ba-893c-34c1568058e1",
+        "head_space": true,
+        "description": "",
+        "description_style": "body",
+        "enable_all": "text",
+        "contact_iframe_code": "",
+        "texttitle": "<strong>Sie benötigen Hilfe ?</strong>",
+        "demotext": "Ob für den privaten oder professionellen Gebrauch – wir helfen Ihnen, die optimale Lösung zu finden. Kontaktieren Sie uns!",
+        "contacttitle": "",
+        "contsubtext": "",
+        "footer_contact_no": "",
+        "show_social": true,
+        "contactfollow": "",
+        "color_scheme": "scheme-77b2cfd5-6085-45ba-893c-34c1568058e1",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
-    "custom_html_RJiaUt": {
-      "type": "custom-html",
-      "name": "Custom HTML",
+    "featured_blog_97NRwq": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
       "settings": {
-        "title": "Trust Pilot Reviews",
-        "html": "<p><\/p><div id=\"shapo-widget-0b01ce2fed4176b989ef\"><\/div>\n<script id=\"shapo-embed-js\" type=\"text\/javascript\" src=\"https:\/\/cdn.shapo.io\/js\/embed.js\" defer><\/script>"
+        "heading": "",
+        "heading_size": "h2",
+        "head_align": "left",
+        "heading_color_scheme": "scheme-77b2cfd5-6085-45ba-893c-34c1568058e1",
+        "head_space": false,
+        "description": "",
+        "description_style": "body",
+        "view_all_label": "mehr Anzeigen",
+        "show_view_all": true,
+        "view_button_pos": "bottom",
+        "view_all_style": "link",
+        "arrow_position": "inline",
+        "blog": "news",
+        "flex_direction": "column",
+        "image_height": "medium",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "show_image": true,
+        "date_position": "below",
+        "show_date": false,
+        "show_author": false,
+        "show_comment": false,
+        "show_tag": false,
+        "tag_layout": "default",
+        "show_seprator": true,
+        "secerpt": "truncate",
+        "show_read_more_button": true,
+        "read_more_uppercase": true,
+        "read_more_style": "link",
+        "blog_card_style": "card",
+        "color_scheme": "scheme-77b2cfd5-6085-45ba-893c-34c1568058e1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
   "order": [
-    "slideshow",
-    "offers",
-    "collection-list",
-    "featured-collection",
-    "mosaic",
-    "rich-text",
-    "logo-list",
-    "collection-with-image",
-    "featured-collection-1",
-    "newsletter",
-    "quick-links",
-    "1758649406169a5352",
-    "17586587554d0dc0f5",
-    "1759950549972516f9",
-    "176132125025608bbb",
-    "custom_html_RJiaUt"
+    "f4fc861e-a8e9-4733-8984-e73213d48588",
+    "3f381c47-733a-4027-b7cc-15a524815a39",
+    "ss_circle_menu_2_bHr33m",
+    "logo_bar_c7Hgqz",
+    "featured_collection_new_pzAqae",
+    "custom_featured_coll_sec_hqKMU6",
+    "cus_new_collectin_list_sec_ftM88k",
+    "collapsible_content_7yExeM",
+    "1769257728e37c44bc",
+    "text_columns_tjFfPx",
+    "contact_form_MtCmVQ",
+    "featured_blog_97NRwq"
   ]
 }

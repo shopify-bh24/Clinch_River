@@ -1,0 +1,149 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h0",
+        "head_align": "left",
+        "heading_color_scheme": "",
+        "head_space": false,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "jobs_section_p77A4z": {
+      "type": "jobs_section",
+      "blocks": {
+        "task_hVHGtW": {
+          "type": "task",
+          "settings": {
+            "task_item": "<p> Verpacken von Waren</p>"
+          }
+        },
+        "task_NpK3yh": {
+          "type": "task",
+          "settings": {
+            "task_item": "<p>Etikettieren von Waren</p>"
+          }
+        },
+        "task_nVjttr": {
+          "type": "task",
+          "settings": {
+            "task_item": "<p>Bearbeitung von Retouren</p>"
+          }
+        },
+        "task_DW4EJr": {
+          "type": "task",
+          "settings": {
+            "task_item": "<p>Allgemeine Lagerarbeiten</p>"
+          }
+        },
+        "task_8X6jfx": {
+          "type": "task",
+          "settings": {
+            "task_item": "<p>Ordnung und Sauberkeit im Lagerbereich</p>"
+          }
+        },
+        "qual_7biqFx": {
+          "type": "qual",
+          "settings": {
+            "qual_item": "<p>Zuverlässigkeit und Teamfähigkeit</p>"
+          }
+        },
+        "qual_bcHK4D": {
+          "type": "qual",
+          "settings": {
+            "qual_item": "<p>Deutsche Sprachkenntnisse (ab B2)</p>"
+          }
+        },
+        "qual_ahFKcR": {
+          "type": "qual",
+          "settings": {
+            "qual_item": "<p>Sicher im Umgang mit dem Computer , einschließlich der gängigen MS-Office-Programme</p>"
+          }
+        },
+        "benefit_XbyVVE": {
+          "type": "benefit",
+          "settings": {
+            "benefit_item": "Eine unbefristete Stelle in Vollzeit/Teilzeit"
+          }
+        },
+        "benefit_Jm7J7h": {
+          "type": "benefit",
+          "settings": {
+            "benefit_item": "Bezahlung je nach Qualifikation"
+          }
+        },
+        "benefit_zH6TdD": {
+          "type": "benefit",
+          "settings": {
+            "benefit_item": "Eine angenehme Arbeitsatmosphäre in einem motivierten Team"
+          }
+        },
+        "benefit_XmNU3N": {
+          "type": "benefit",
+          "settings": {
+            "benefit_item": "Flexible Arbeitszeiten"
+          }
+        }
+      },
+      "block_order": [
+        "task_hVHGtW",
+        "task_NpK3yh",
+        "task_nVjttr",
+        "task_DW4EJr",
+        "task_8X6jfx",
+        "qual_7biqFx",
+        "qual_bcHK4D",
+        "qual_ahFKcR",
+        "benefit_XbyVVE",
+        "benefit_Jm7J7h",
+        "benefit_zH6TdD",
+        "benefit_XmNU3N"
+      ],
+      "name": "Job Detail",
+      "settings": {
+        "company_name": "",
+        "job_title": "Lagerhelfer/in (m/w/d)",
+        "job_location": "Vollzeit/Teilzeit",
+        "job_type": "Lager- und Transportarbeiter/inFachlagerist/in",
+        "job_category": "",
+        "variant1": "",
+        "variant2": "",
+        "intro_heading": "Bist du bereit für eine neue berufliche Herausforderung in der Gesundheitsbranche?",
+        "intro_paragraph_1": "DocMed ist ein mittelständisches E-Commerce-Unternehmen mit Sitz in Bochum und gehören zu den schnell wachsenden Anbietern im Bereich pharmazeutischer und medizinischer Produkte. Unsere Mission ist es, hochwertige Produkte im Gesundheitswesen für B2B- und B2C-Kunden in über 50 Ländern weltweit einfach und zuverlässig zugänglich zu machen.\n\nMit einem engagierten Team, modernen Technologien und einer klaren Wachstumsstrategie gestalten wir den digitalen Handel im Gesundheitssektor aktiv mit.",
+        "intro_paragraph_2": "Wir suchen nach motivierten Talenten aber auch erfahrenen Branchenprofis, die unsere Vision teilen und gemeinsam mit uns wachsen wollen.",
+        "intro_paragraph_3": "Wir suchen Mitarbeiter/innen (m/w/d) für Lagertätigkeiten.",
+        "intro_paragraph_4": "",
+        "tasks_title": "Aufgaben",
+        "qual_title": "Qualifikation",
+        "benefit_title": "Benefits"
+      }
+    },
+    "about_comapny_Gxgzmf": {
+      "type": "about_comapny",
+      "name": "About Company",
+      "settings": {
+        "title": "Über das Unternehmen",
+        "paragraph_1": "<p>DocMed ist ein <strong>mittelständisches E-Commerce-Unternehmen</strong> mit Sitz in <strong>Bochum</strong> und gehören zu den <strong>schnell wachsenden Anbietern im Bereich pharmazeutischer und medizinischer Produkte</strong>.</p>",
+        "paragraph_2": "<p>Unsere Mission ist es, hochwertige Produkte im Gesundheitswesen für <strong>B2B- und B2C-Kunden </strong>weltweit einfach und zuverlässig zugänglich zu machen. Mit einem engagierten Team, modernen Technologien und einer klaren Wachstumsstrategie gestalten wir den digitalen Handel im Gesundheitssektor aktiv mit.</p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "jobs_section_p77A4z",
+    "about_comapny_Gxgzmf"
+  ]
+}
